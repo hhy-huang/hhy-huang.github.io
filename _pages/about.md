@@ -58,7 +58,7 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)-->
 
 # 💻 Internships
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
 - *2023.07 - now*, [Century Games](https://www.centurygames.com), China.
 - *2023.04 - 2023.07*, [Chinese Academy of Medical Science](https://www.pumch.cn/index.html), China.
 - *2022.04 - now*, [BJTU, INSIS Lab](http://insis.bjtu.edu.cn), China.
