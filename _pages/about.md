@@ -59,19 +59,19 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 
 # 💻 Internships
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/game.png' alt="sym" width="40%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='intern-box-text' markdown="1">
 - *2023.07 - now*, [Century Games](https://www.centurygames.com), China.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/medi.jpeg' alt="sym" width="30%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='intern-box-text' markdown="1">
 - *2023.04 - 2023.07*, [Chinese Academy of Medical Science](https://www.pumch.cn/index.html), China.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/bjtu.jpeg' alt="sym" width="30%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='intern-box-text' markdown="1">
 - *2022.04 - now*, [BJTU, INSIS Lab](http://insis.bjtu.edu.cn), China.
 </div>
 </div>
