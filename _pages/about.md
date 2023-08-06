@@ -31,7 +31,7 @@ https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Building and Exploiting Spatial-Temporal Knowledge Graph for Next POI Recommendation](https://www.sciencedirect.com/science/article/abs/pii/S0950705122010449)
