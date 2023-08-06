@@ -22,7 +22,6 @@ I work at Century Games New-Tech Group as an AI enginner intern now in Beijing, 
 I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.
 
 My research interest includes knowledge graph Reasoning, POI(Point-Of-Interest) recommendation, spatial-temproal data analysis and pretrained-language models. 
-https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
