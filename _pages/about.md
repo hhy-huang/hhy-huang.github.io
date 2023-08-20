@@ -24,6 +24,8 @@ I graduated from School of Computer and Information Technology, BJTU (北京交�
 My research interest includes knowledge graph Reasoning, POI(Point-Of-Interest) recommendation, spatial-temproal data analysis and pretrained-language models. 
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
+WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><img src="https://wakatime.com/badge/user/7898004c-c0c5-455b-b249-c12d9d8aa6e5.svg" alt="Total time coded since Mar 8 2023" /></a>
+
 
 # 🔥 News
 - *2023.07*: &nbsp;🎉🎉 Got the internship of Century Games.
