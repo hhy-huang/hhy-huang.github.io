@@ -28,6 +28,7 @@ WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><
 
 
 # 🔥 News
+- *2023.10*: &nbsp;🎉🎉 Admitted by MSCS of CUHK.
 - *2023.07*: &nbsp;🎉🎉 Got the internship of Century Games.
 
 # 📝 Publications 
