@@ -41,13 +41,14 @@ WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><
 Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Shuohao Lin, Youfang Lin.
 
 </div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/paperstkgplm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Next-POI Recommendation with Spatial-Temporal Knowledge Graph and Prompt Pre-traind Language Model]()
 
 Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang Lin, Huaiyu Wan.
-
+[Under Review]
 </div>
 </div>
 
