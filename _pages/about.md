@@ -82,6 +82,6 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 </div>
 </div>
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=yvObhKSEGg9GY-P_Ek2xBvgApym5v6ZpqFHzy7qndUc&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=yvObhKSEGg9GY-P_Ek2xBvgApym5v6ZpqFHzy7qndUc&cl=ffffff&w=200"></script>
 
 
