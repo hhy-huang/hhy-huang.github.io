@@ -80,6 +80,7 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 <div class='intern-box-text' markdown="1">
 - *2022.04 - now*, [BJTU, INSIS Lab](http://insis.bjtu.edu.cn), Research Intern, China.
 </div>
+</div>
 <br>
 <br>
 <br>
