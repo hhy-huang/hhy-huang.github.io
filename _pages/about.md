@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I work at Century Games New-Tech Group as an AI Engineer Intern now in Beijing, performing some AI+Game tasks with LLM/stable diffusion models/some other AIGC models. And I am also work as a Research Intern in INSIS lab of BJTU.
+I work at Century Games New-Tech Group as an AI Engineer Intern now in Beijing, performing some AI+Game tasks with LLM/stable diffusion models/some other AIGC models. And I also work as a Research Intern in INSIS lab of BJTU.
 
-I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.
+I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.(CS@CUHK ✅, ..)
 
 My research interest includes data mining, knowledge graph Reasoning, spatial-temproal data analysis and pretrained-language models. 
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
