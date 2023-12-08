@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I work at Century Games New-Tech Group as an AI Engineer Intern now in Beijing, performing some AI+Game tasks with LLM/stable diffusion models/some other AIGC models. And I also work as a Research Intern in INSIS lab of BJTU.
+I work as a Research Intern in the Center of Machine Learning Research at Peking University now. Before that, I worked at Century Games AI Group as an AI Engineer Intern in Beijing. And I also worked as a Research Intern in the INSIS lab at Beijing Jiaotong University.
 
 I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.(CS@CUHK ✅, ..)
 
