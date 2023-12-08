@@ -70,7 +70,7 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)-->
 
 # 💻 Internships
-<div class='paper-box'><div class='intern-box-image'><div><img src='images/pku.jpg' alt="sym" width="30%"></div></div>
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/pku.jpg' alt="sym" width="27%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2023.12 - now*, [PKU, CMLR](https://cmlr.pku.edu.cn/), Research Intern, China.
 </div>
