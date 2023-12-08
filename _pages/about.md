@@ -70,6 +70,12 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)-->
 
 # 💻 Internships
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/pku.jpg' alt="sym" width="40%"></div></div>
+<div class='intern-box-text' markdown="1">
+- *2023.12 - now*, [PKU, CMLR](https://cmlr.pku.edu.cn/), Research Intern, China.
+</div>
+</div>
+
 <div class='paper-box'><div class='intern-box-image'><div><img src='images/game.png' alt="sym" width="40%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2023.07 - now*, [Century Games](https://www.centurygames.com), AI Engineer Intern, China.
@@ -78,7 +84,7 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 
 <div class='paper-box'><div class='intern-box-image'><div><img src='images/bjtu.jpeg' alt="sym" width="30%"></div></div>
 <div class='intern-box-text' markdown="1">
-- *2022.04 - now*, [BJTU, INSIS Lab](http://insis.bjtu.edu.cn), Research Intern, China.
+- *2022.04 - 2023.12*, [BJTU, INSIS Lab](http://insis.bjtu.edu.cn), Research Intern, China.
 </div>
 </div>
 <br>
