@@ -19,15 +19,16 @@ redirect_from:
 
 I work as a Research Intern in the Center of Machine Learning Research at Peking University now. Before that, I worked at Century Games AI Group as an AI Engineer Intern in Beijing. And I also worked as a Research Intern in the INSIS lab at Beijing Jiaotong University.
 
-I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.(CS@CUHK ✅, ..)
+I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.
 
-My research interest includes data mining, knowledge graph Reasoning, spatial-temproal data analysis and pretrained-language models. 
+My research interest includes data mining, LLM+Graph, knowledge graph Reasoning, spatial-temproal data analysis and PLMs.
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><img src="https://wakatime.com/badge/user/7898004c-c0c5-455b-b249-c12d9d8aa6e5.svg" alt="Total time coded since Mar 8 2023" /></a>
 
 
 # 🔥 News
+- *2023.12*: &nbsp;🎉🎉 Joined CMLR, full-time for research!
 - *2023.10*: &nbsp;🎉🎉 Admitted by MSCS of CUHK.
 - *2023.07*: &nbsp;🎉🎉 Got the internship of Century Games.
 
@@ -78,7 +79,7 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 
 <div class='paper-box'><div class='intern-box-image'><div><img src='images/game.png' alt="sym" width="40%"></div></div>
 <div class='intern-box-text' markdown="1">
-- *2023.07 - now*, [Century Games](https://www.centurygames.com), AI Engineer Intern, China.
+- *2023.07 - 2023.12*, [Century Games](https://www.centurygames.com), AI Engineer Intern, China.
 </div>
 </div>
 
