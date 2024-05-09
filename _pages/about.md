@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -26,13 +26,14 @@ My research interest includes data mining, LLM+Graph, knowledge graph Reasoning,
 
 WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><img src="https://wakatime.com/badge/user/7898004c-c0c5-455b-b249-c12d9d8aa6e5.svg" alt="Total time coded since Mar 8 2023" /></a>
 
-
 # 🔥 News
-- *2023.12*: &nbsp;🎉🎉 Joined CMLR, full-time for research!
-- *2023.10*: &nbsp;🎉🎉 Admitted by MSCS of CUHK.
-- *2023.07*: &nbsp;🎉🎉 Got the internship of Century Games.
 
-# 📝 Publications 
+- _2024.05_: &nbsp;🎉🎉 Admitted by MSCogSci of University of Edinburgh(QS#22)!
+- _2023.12_: &nbsp;🎉🎉 Joined CMLR, full-time for research!
+- _2023.10_: &nbsp;🎉🎉 Admitted by MSCS of CUHK(QS#47)!
+- _2023.07_: &nbsp;🎉🎉 Got the internship of Century Games.
+
+# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -50,27 +51,32 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 
 Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang Lin, Huaiyu Wan.
 [Under Review]
+
 </div>
 </div>
 
 <!--- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2021* Beijing Jiaotong University Social Work Scholarship 
-- *2021* Third Prize of Mathematical Modelling Competition for College Students of Beijing Jiaotong University
-- *2021* Second Prize of Programming Competition for College Students of Beijing Jiaotong University
-- *2020* Beijing Jiaotong University Third Class Scholarship for Academic Excellence
-- *2020* Bronze Award in the National College Student Algorithm Design and Programming Challenge
-- *2020* First Prize in Mathematics Competition for College Students of Beijing Jiaotong University
+
+- _2021_ Beijing Jiaotong University Social Work Scholarship
+- _2021_ Third Prize of Mathematical Modelling Competition for College Students of Beijing Jiaotong University
+- _2021_ Second Prize of Programming Competition for College Students of Beijing Jiaotong University
+- _2020_ Beijing Jiaotong University Third Class Scholarship for Academic Excellence
+- _2020_ Bronze Award in the National College Student Algorithm Design and Programming Challenge
+- _2020_ First Prize in Mathematics Competition for College Students of Beijing Jiaotong University
 
 # 📖 Educations
-- *2019.09 - 2023.07*, Undergraduate, School of Computer and Information Technology, Beijing Jiaotong Univeristy, Beijing.
-  
+
+- _2019.09 - 2023.07_, Undergraduate, School of Computer and Information Technology, Beijing Jiaotong Univeristy, Beijing.
+
 # 💬 Invited Talks
-<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)-->
 
 # 💻 Internships
+
 <div class='paper-box'><div class='intern-box-image'><div><img src='images/pku.png' alt="sym" width="29%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2023.12 - now*, [PKU, CMLR](https://cmlr.pku.edu.cn/), Research Intern, China.
@@ -92,5 +98,3 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 <br>
 <br>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=yvObhKSEGg9GY-P_Ek2xBvgApym5v6ZpqFHzy7qndUc&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080&w=350'></script>
-
-
