@@ -19,9 +19,9 @@ redirect_from:
 
 I work as a Research Intern in the Center of Machine Learning Research at Peking University now. Before that, I worked at Century Games AI Group as an AI Engineer Intern in Beijing. And I also worked as a Research Intern in the INSIS lab at Beijing Jiaotong University.
 
-I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year for abroading.
+I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year.
 
-My research interest includes data mining, LLM+Graph, knowledge graph Reasoning, spatial-temproal data analysis and PLMs.
+My research interest includes data mining, Large Language Model, GraphML, knowledge graph Reasoning and spatial-temproal data analysis.
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN&oi=ao'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><img src="https://wakatime.com/badge/user/7898004c-c0c5-455b-b249-c12d9d8aa6e5.svg" alt="Total time coded since Mar 8 2023" /></a>
@@ -29,11 +29,13 @@ WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><
 # 🔥 News
 
 - _2024.05_: &nbsp;🎉🎉 Admitted by MSCogSci of University of Edinburgh(QS#22)!
-- _2023.12_: &nbsp;🎉🎉 Joined CMLR, full-time for research!
+- _2023.12_: &nbsp;🎉🎉 Joined CMLR as Research Intern, full-time for research!
 - _2023.10_: &nbsp;🎉🎉 Admitted by MSCS of CUHK(QS#47)!
-- _2023.07_: &nbsp;🎉🎉 Got the internship of Century Games.
+- _2023.07_: &nbsp;🎉🎉 Joined Century Games as AI Engineer Intern!
 
 # 📝 Publications
+
+_(# corresponding author, \* equal contribution)_
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
