@@ -28,9 +28,9 @@ WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><
 
 # 🔥 News
 
-- _2024.05_: &nbsp;🎉🎉 Admitted by MSCogSci of University of Edinburgh(QS#22)!
+- _2024.05_: &nbsp;🎉🎉 Admitted by MSCogSci of University of Edinburgh(QS#27)!
 - _2023.12_: &nbsp;🎉🎉 Joined CMLR as Research Intern, full-time for research!
-- _2023.10_: &nbsp;🎉🎉 Admitted by MSCS of CUHK(QS#47)!
+- _2023.10_: &nbsp;🎉🎉 Admitted by MSCS of CUHK(QS#36)!
 - _2023.07_: &nbsp;🎉🎉 Joined Century Games as AI Engineer Intern!
 
 # 📝 Publications
