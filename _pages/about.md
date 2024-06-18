@@ -21,7 +21,7 @@ I work as a Research Intern in the Center of Machine Learning Research at Peking
 
 I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year.
 
-My research interest includes data mining, Large Language Model, GraphML, knowledge graph Reasoning and spatial-temproal data analysis.
+My research interest includes Data Mining, Large Language Models, Graph ML and Recommendation System.
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN&oi=ao'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><img src="https://wakatime.com/badge/user/7898004c-c0c5-455b-b249-c12d9d8aa6e5.svg" alt="Total time coded since Mar 8 2023" /></a>
