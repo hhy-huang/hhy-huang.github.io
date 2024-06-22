@@ -17,14 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I work as a Research Intern in the Center of Machine Learning Research at Peking University now. Before that, I worked at Century Games AI Group as an AI Engineer Intern in Beijing. And I also worked as a Research Intern in the INSIS lab at Beijing Jiaotong University.
+Hi! I am a first-year mater student of [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html). And I also work as a Research Intern in the [Center of Machine Learning Research](https://cmlr.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/) now, supervised by Prof. [Wentao Zhang](https://zwt233.github.io/). 
 
-I graduated from School of Computer and Information Technology, BJTU (北京交通大学计算机与信息技术学院) with a bachelor’s degree. Now I am in my gap year.
+Before that, I worked at [Century Games](https://www.centurygames.com) AI Group as an AI Engineer Intern in Beijing, mentored by [Yuanlei Niu](https://github.com/truenyl). And I also worked as a Research Intern in the [INSIS lab](http://insis.bjtu.edu.cn) at [Beijing Jiaotong University](https://www.bjtu.edu.cn/), supervised by [Prof. Huaiyu Wan](https://faculty.bjtu.edu.cn/8793/).
 
-My research interest includes Data Mining, Large Language Models, Graph ML and Recommendation System.
+I got my B.S. degree in School of Computer and Information Technology from Beijing Jiaotong University (BJTU).
+
+My research interests mainly focus on Data Mining, Large Language Models, Graph ML and Recommendation System.
+
 <a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN&oi=ao'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
-WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><img src="https://wakatime.com/badge/user/7898004c-c0c5-455b-b249-c12d9d8aa6e5.svg" alt="Total time coded since Mar 8 2023" /></a>
 
 # 🔥 News
 
@@ -37,15 +38,6 @@ WakaTime: <a href="https://wakatime.com/@7898004c-c0c5-455b-b249-c12d9d8aa6e5"><
 
 _(# corresponding author, \* equal contribution)_
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Building and Exploiting Spatial-Temporal Knowledge Graph for Next POI Recommendation](https://www.sciencedirect.com/science/article/abs/pii/S0950705122010449)
-
-Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Shuohao Lin, Youfang Lin.
-
-</div>
-</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">***</div><img src='images/paperstkgplm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -53,6 +45,15 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 
 Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang Lin, Huaiyu Wan.
 [Under Review]
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Building and Exploiting Spatial-Temporal Knowledge Graph for Next POI Recommendation](https://www.sciencedirect.com/science/article/abs/pii/S0950705122010449)
+
+Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Shuohao Lin, Youfang Lin.
 
 </div>
 </div>
