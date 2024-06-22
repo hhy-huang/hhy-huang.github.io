@@ -25,8 +25,6 @@ I got my B.S. degree in School of Computer and Information Technology from Beiji
 
 My research interests mainly focus on Data Mining, Large Language Models, Graph ML and Recommendation System.
 
-<a href='https://scholar.google.com/citations?user=tWnT7wEAAAAJ&hl=zh-CN&oi=ao'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
 # 🔥 News
 
 - _2024.05_: &nbsp;🎉🎉 Admitted by MSCogSci of University of Edinburgh(QS#27)!
