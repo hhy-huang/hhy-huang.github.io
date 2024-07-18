@@ -69,7 +69,9 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 
 # 📖 Educations
 
-- _2019.09 - 2023.07_, Undergraduate, School of Computer and Information Technology, Beijing Jiaotong Univeristy, Beijing.
+- _2024.09 - now_, MSc in Computer Science, Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong.
+
+- _2019.09 - 2023.07_, BEng in Computer Science, School of Computer and Information Technology, Beijing Jiaotong Univeristy, Beijing.
 
 # 💬 Invited Talks
 
