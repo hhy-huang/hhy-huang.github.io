@@ -80,7 +80,7 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 
 # 💻 Internships
 
-<div class='paper-box'><div class='intern-box-image'><div><img src='images/CMLR.png' alt="sym" width="29%"></div></div>
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/CMLR.jpg' alt="sym" width="29%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2023.12 - now*, [PKU, CMLR](https://cmlr.pku.edu.cn/), Research Intern, China.
 </div>
