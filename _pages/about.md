@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! I am a first-year master student of [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html). And I also work as a Research Intern in the [Center of Machine Learning Research](https://cmlr.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/) now, supervised by [Prof. Wentao Zhang](https://zwt233.github.io/). 
 
-Before that, I worked at [Century Games](https://www.centurygames.com) AI Group as an AI Engineer Intern in Beijing, mentored by [Yuanlei Niu](https://github.com/truenyl). And I also worked as a Research Intern in the [INSIS lab](http://insis.bjtu.edu.cn) at [Beijing Jiaotong University](https://www.bjtu.edu.cn/), supervised by [Prof. Huaiyu Wan](https://faculty.bjtu.edu.cn/8793/).
+Before that, I worked at [Century Games](https://www.centurygames.com) AI Group as an AI Engineer Intern in Beijing, mentored by [Yuanlei Niu](https://truenyl.github.io/index.html). And I also worked as a Research Intern in the [INSIS lab](http://insis.bjtu.edu.cn) at [Beijing Jiaotong University](https://www.bjtu.edu.cn/), supervised by [Prof. Huaiyu Wan](https://faculty.bjtu.edu.cn/8793/).
 
 I got my B.S. degree in School of Computer and Information Technology from Beijing Jiaotong University (BJTU).
 
