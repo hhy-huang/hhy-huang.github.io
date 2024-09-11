@@ -82,7 +82,7 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 
 # 💻 Intern & Work Experience
 
-<div class='paper-box'><div class='intern-box-image'><div><img src='images/cuhk.png' alt="sym" width="25%"></div></div>
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/cuhk.png' alt="sym" width="20%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2024.9 - now*, [CUHK, Husky Data Lab](https://www.cse.cuhk.edu.hk/~jcheng/index.html), Research Assistant, Hong Kong, China.
 </div>
