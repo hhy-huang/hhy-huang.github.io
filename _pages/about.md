@@ -38,7 +38,7 @@ My research interests mainly focus on Data Mining, Large Language Models, Graph 
 
 _(# corresponding author, \* equal contribution)_
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">***</div><img src='images/paperstkgplm.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">***</div><img src='images/paperstkgplm.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Next-POI Recommendation with Spatial-Temporal Knowledge Graph and Prompt Pre-traind Language Model]()
@@ -48,7 +48,7 @@ Wei Chen\*, **Haoyu Huang\***, Tianyi Wang, Zhiyu Zhang, Shengnan Guo, Youfang L
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/paperstkgrec.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Building and Exploiting Spatial-Temporal Knowledge Graph for Next POI Recommendation](https://www.sciencedirect.com/science/article/abs/pii/S0950705122010449)
@@ -61,7 +61,7 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 <!--- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 📝 Engineering Projects
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/apollo_car.jpg' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/apollo_car.jpg' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Baidu-Apollo-VR**  [[code]](https://github.com/hhy-huang/Baidu-Apollo-VR)
