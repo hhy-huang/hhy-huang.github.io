@@ -61,12 +61,12 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 <!--- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 📝 Engineering Projects
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">***</div><img src='images/apollo_car.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/apollo_car.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Baidu-Apollo-VR[code](https://github.com/hhy-huang/Baidu-Apollo-VR)
+**Baidu-Apollo-VR**  [[code]](https://github.com/hhy-huang/Baidu-Apollo-VR)
 
-
+Provides students with a platform for learning to assemble Baidu's Apollo driverless cars with a VR device.
 </div>
 </div>
 
