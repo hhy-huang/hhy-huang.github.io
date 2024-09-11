@@ -17,11 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am a first-year master student of [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html). And I also work as a Research Intern in the [Center of Machine Learning Research](https://cmlr.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/) now, supervised by [Prof. Wentao Zhang](https://zwt233.github.io/). 
+Hi! I am a first-year master student of [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), and work as a Research Assistant supervised by [Prof. James Cheng](https://www.cse.cuhk.edu.hk/~jcheng/).
+
+I also work as a Research Intern in the [Center of Machine Learning Research](https://cmlr.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/) now, supervised by [Prof. Wentao Zhang](https://zwt233.github.io/). 
 
 Before that, I worked at [Century Games](https://www.centurygames.com) AI Group as an AI Engineer Intern in Beijing, mentored by [Yuanlei Niu](https://truenyl.github.io/index.html). And I also worked as a Research Intern in the [INSIS lab](http://insis.bjtu.edu.cn) at [Beijing Jiaotong University](https://www.bjtu.edu.cn/), supervised by [Prof. Huaiyu Wan](https://faculty.bjtu.edu.cn/8793/).
 
-I got my B.S. degree in School of Computer and Information Technology from Beijing Jiaotong University (BJTU).
+Previously, I got my B.S. degree in School of Computer and Information Technology from Beijing Jiaotong University (BJTU).
 
 My research interests mainly focus on Data Mining, Large Language Models, Graph ML and Recommendation System.
 
@@ -78,7 +80,13 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 <!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)-->
 
-# 💻 Internships
+# 💻 Intern & Work Experience
+
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/cuhk.png' alt="sym" width="25%"></div></div>
+<div class='intern-box-text' markdown="1">
+- *2024.9 - now*, [CUHK, Husky Data Lab](https://www.cse.cuhk.edu.hk/~jcheng/index.html), Research Assistant, Hong Kong, China.
+</div>
+</div>
 
 <div class='paper-box'><div class='intern-box-image'><div><img src='images/CMLR.png' alt="sym" width="40%"></div></div>
 <div class='intern-box-text' markdown="1">
