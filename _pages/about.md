@@ -94,13 +94,13 @@ Wei Chen, Huaiyu Wan, Shengnan Guo, **Haoyu Huang**, Shaojie Zheng, Jiamu Li, Sh
 </div>
 </div>
 
-<div class='paper-box'><div class='intern-box-image'><div><img src='images/game.png' alt="sym" width="40%"></div></div>
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/game.png' alt="sym" width="35%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2023.07 - 2023.12*, [Century Games](https://www.centurygames.com), AI Engineer Intern, China.
 </div>
 </div>
 
-<div class='paper-box'><div class='intern-box-image'><div><img src='images/bjtu.jpeg' alt="sym" width="25%"></div></div>
+<div class='paper-box'><div class='intern-box-image'><div><img src='images/bjtu.jpeg' alt="sym" width="22%"></div></div>
 <div class='intern-box-text' markdown="1">
 - *2022.04 - 2023.12*, [BJTU, INSIS Lab](http://insis.bjtu.edu.cn), Research Intern, China.
 </div>
