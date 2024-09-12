@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Backgarden</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Backgarden">
+<meta property="og:url" content="https://hhy-huang.github.io/page/2/index.html">
+<meta property="og:site_name" content="Backgarden">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="hhy">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Backgarden" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Backgarden</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://hhy-huang.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-acm-zhengshumicifang-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/11/08/acm-zhengshumicifang-md/" class="article-date">
+  <time datetime="2021-11-08T06:55:12.000Z" itemprop="datePublished">2021-11-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/11/08/acm-zhengshumicifang-md/">acm-zhengshumicifang.md</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhy-huang.github.io/2021/11/08/acm-zhengshumicifang-md/" data-id="ckvsbawy20002r5oecb4r00lu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-acm-jihehuafen-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/11/07/acm-jihehuafen-md/" class="article-date">
+  <time datetime="2021-11-07T12:39:42.000Z" itemprop="datePublished">2021-11-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/11/07/acm-jihehuafen-md/">集合划分</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>n个元素的集合{1,2,…, n }可以划分为若干个非空子集。例如，当n=4 时，集合{1，2，3，4}可以划分为15 个不同的非空子集如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;1&#125;，&#123;2&#125;，&#123;3&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2&#125;，&#123;3&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，3&#125;，&#123;2&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，4&#125;，&#123;2&#125;，&#123;3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;2，3&#125;，&#123;1&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;2，4&#125;，&#123;1&#125;，&#123;3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;3，4&#125;，&#123;1&#125;，&#123;2&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2&#125;，&#123;3，4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，3&#125;，&#123;2，4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，4&#125;，&#123;2，3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2，3&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2，4&#125;，&#123;3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，3，4&#125;，&#123;2&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;2，3，4&#125;，&#123;1&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2，3，4&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>给定正整数n，计算出n 个元素的集合{1,2,…, n }可以划分为多少个不同的非空子集。</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>多组输入(&lt;=10组数据，读入以EOF结尾) 每组一行输入一个数字，n(0&lt; n &lt;=18)</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>每组输出一行结果。</p>
+<h2 id="EX"><a href="#EX" class="headerlink" title="EX"></a>EX</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">15</span><br></pre></td></tr></table></figure>
+
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>这道题一开始从整体上分析无从下手，但是不难体会到它是存在递推关系的，复杂问题可以将其分解为一步一步的小问题。因此可以从划分为一组开始讨论，每增加一个分组后划情况数会经历怎样的改变？（这个改变必须于上一个状态的划分数相关才可构成递推关系），</p>
+<p>可以发现一种加法是将其中一个元素拿出，将该元素加入到n-1个元素的分组中，但是这样少考虑了该元素单独在一个组的情况，因此还需要加上这种情况的个数，也就是n-1个元素划分为m-1个set的个数。这样就构成了递推关系，可以递推到元素越来越少的情况，直到return1。</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> a[<span class="number">20</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> i, <span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(i == <span class="number">1</span> || i &gt;= n)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">f</span>(i, n - <span class="number">1</span>)*i + <span class="built_in">f</span>(i - <span class="number">1</span>, n - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">while</span>(cin&gt;&gt;n)&#123;</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt;= n;i++) &#123; <span class="comment">//对划分块数遍历</span></span><br><span class="line">            ans += <span class="built_in">f</span>(i, n);</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;ans&lt;&lt;endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhy-huang.github.io/2021/11/07/acm-jihehuafen-md/" data-id="ckvp8ovv100003coeel4dgcv8" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-acm-qingdi-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/11/07/acm-qingdi-md/" class="article-date">
+  <time datetime="2021-11-07T11:22:27.000Z" itemprop="datePublished">2021-11-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/11/07/acm-qingdi-md/">清帝之惑之顺治</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>顺治喜欢滑雪，这并不奇怪， 因为滑雪的确很刺激。可是为了获得速度，滑的区域必须向下倾斜，而且当你滑到坡底，你不得不再次走上坡或者等待太监们来载你。顺治想知道载一个区域中最长的滑坡。</p>
+<p>　　区域由一个二维数组给出。数组的每个数字代表点的高度。下面是一个例子：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">　　 1 2 3 4 5</span><br><span class="line">　　16 17 18 19 6</span><br><span class="line">　　15 24 25 20 7</span><br><span class="line">　　14 23 22 21 8</span><br><span class="line">　　13 12 11 10 9</span><br></pre></td></tr></table></figure>
+
+<p>　　顺治可以从某个点滑向上下左右相邻四个点之一，当且仅当高度减小。在上面的例子中，一条可滑行的滑坡为24-17-16-1。当然25-24-23-…-3-2-1更长。事实上，这是最长的一条。</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>输入的第一行表示区域的行数 R 和列数 C (1≤R,C≤500) 。下面是 R 行，每行有 C 个整数，代表高度 h,0≤h&lt;103 。</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>输出最长区域的长度。</p>
+<h2 id="EX"><a href="#EX" class="headerlink" title="EX"></a>EX</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">5 5</span><br><span class="line">1 2 3 4 5</span><br><span class="line">16 17 18 19 6</span><br><span class="line">15 24 25 20 7</span><br><span class="line">14 23 22 21 8</span><br><span class="line">13 12 11 10 9</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">25</span><br></pre></td></tr></table></figure>
+
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>很典型的深搜题，rc并不算大，O(n3)不会爆，所以直接dfs每个点的最长序列。注意要记忆化每个点的长度（在dfs内记忆化效果更优，因为能保存下更多点的mem值）。</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> r,c;</span><br><span class="line"><span class="keyword">int</span> height[<span class="number">502</span>][<span class="number">502</span>];</span><br><span class="line"><span class="keyword">int</span> mem[<span class="number">502</span>][<span class="number">502</span>] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> changex[<span class="number">4</span>] = &#123;<span class="number">-1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> changey[<span class="number">4</span>] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">1</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(mem[x][y])&#123;</span><br><span class="line">        <span class="keyword">return</span> mem[x][y];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> maxx = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; <span class="number">4</span>;i++)&#123;</span><br><span class="line">        <span class="keyword">int</span> xx = x + changex[i];</span><br><span class="line">        <span class="keyword">int</span> yy = y + changey[i];</span><br><span class="line">        <span class="keyword">int</span> hh = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">if</span>(height[xx][yy] &lt; height[x][y])&#123;</span><br><span class="line">            hh = <span class="built_in">dfs</span>(xx,yy);</span><br><span class="line">        &#125;</span><br><span class="line">        hh++;</span><br><span class="line">        <span class="keyword">if</span>(hh &gt; maxx)&#123;</span><br><span class="line">            maxx = hh;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    mem[x][y] = maxx;</span><br><span class="line">    <span class="keyword">return</span> maxx;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    cin&gt;&gt;r&gt;&gt;c;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt;= r + <span class="number">1</span>;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt;= c + <span class="number">1</span>;j++)&#123;</span><br><span class="line">            height[i][j] = <span class="number">0x3f3f3f3f</span>;</span><br><span class="line">            mem[i][j] = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt;= r;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>;j &lt;= c;j++)&#123;</span><br><span class="line">            cin&gt;&gt;height[i][j];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt;= r;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>;j &lt;= c;j++)&#123;</span><br><span class="line">            <span class="keyword">int</span> h = <span class="built_in">dfs</span>(i,j);</span><br><span class="line">            <span class="keyword">if</span>(h &gt; ans)&#123;</span><br><span class="line">                ans = h;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;ans&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhy-huang.github.io/2021/11/07/acm-qingdi-md/" data-id="ckvp5hm0z0000a9oecjff2kwp" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-acm-jiafenerchashu-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/11/07/acm-jiafenerchashu-md/" class="article-date">
+  <time datetime="2021-11-07T04:15:41.000Z" itemprop="datePublished">2021-11-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/11/07/acm-jiafenerchashu-md/">加分二叉树</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>设一个n个节点的二叉树tree的中序遍历为（l,2,3,…,n），其中数字1,2,3,…,n为节点编号。每个节点都有一个分数（均为正整数），记第i个节点的分数为di，tree及它的每个子树都有一个加分，任一棵子树subtree（也包含tree本身）的加分计算方法如下：</p>
+<p>　　subtree的左子树的加分× subtree的右子树的加分＋subtree的根的分数</p>
+<p>　　若某个子树为空，规定其加分为1，叶子的加分就是叶节点本身的分数。不考虑它的空子树。</p>
+<p>　　试求一棵符合中序遍历为（1,2,3,…,n）且加分最高的二叉树tree。要求输出；</p>
+<p>　　（1）tree的最高加分</p>
+<p>　　（2）tree的前序遍历</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>第 1 行：一个整数 n (n＜30)， 为节点个数。</p>
+<p>第 2 行 ：n 个用空格隔开的整数，为每个节点的分数（分数 ＜100）。</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>第 1 行：一个整数，为最高加分（结果不会超过4,000,000,000）。</p>
+<p>第 2 行 ：n 个用空格隔开的整数，为该树的前序遍历。</p>
+<p>若存在多种前序遍历均为最高加分，则输出字典序最小的前序遍历</p>
+<h2 id="EX"><a href="#EX" class="headerlink" title="EX"></a>EX</h2><p>5<br>5 7 1 2 10</p>
+<p>145<br>3 1 2 4 5</p>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>问题的本质在于寻找到一个最优的二叉树，评估标准是根节点的加分，而跟节点的加分又与它的两个son的加分有关，所以递归方程很好寻找。</p>
+<p>可以把中序遍历的序列分为几层，在最外一层寻找最优的根节点，然后在根结点的左右分别找下一层的根结点，每一层的每一个可能根节点的加分都要递归到最后才能算出，所以就能写出来了。</p>
+<p>最后要输出前序遍历的序列。这需要用一个变量存下每一层的根结点，然后输出的时候先输出每一层的根结点然后左右层的根结点…以此类推。</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> n,a[<span class="number">40</span>],root[<span class="number">40</span>][<span class="number">40</span>];</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> dp[<span class="number">40</span>][<span class="number">40</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">long</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> L,<span class="keyword">int</span> R)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(L&gt;R) <span class="keyword">return</span> <span class="number">1</span>;       <span class="comment">//因为要左右子节点相乘，所以如果是空则给1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(dp[L][R]) <span class="keyword">return</span> dp[L][R];  <span class="comment">//关键一步，记忆化，以前走过那就直接返回结果</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> maxn = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=L;i&lt;R;i++)&#123;       <span class="comment">//递归地寻找加分最大地那个父节点</span></span><br><span class="line">        <span class="keyword">long</span> <span class="keyword">long</span> t = <span class="built_in">dfs</span>(L,i<span class="number">-1</span>) * <span class="built_in">dfs</span>(i+<span class="number">1</span>,R) + a[i];   <span class="comment">//寻找左侧和右侧地最大父节点对应的加分</span></span><br><span class="line">        <span class="keyword">if</span>(t &gt; maxn)&#123;</span><br><span class="line">            maxn = t;</span><br><span class="line">            root[L][R] = i;<span class="comment">//L-R的最父节点为i</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> dp[L][R] = maxn;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dg</span><span class="params">(<span class="keyword">int</span> L,<span class="keyword">int</span> R)</span></span>&#123;           <span class="comment">//前序遍历</span></span><br><span class="line">    <span class="keyword">if</span>(L&gt;R)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;root[L][R]&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">    <span class="built_in">dg</span>(L,root[L][R]<span class="number">-1</span>);</span><br><span class="line">    <span class="built_in">dg</span>(root[L][R]+<span class="number">1</span>,R);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        cin&gt;&gt;a[i];</span><br><span class="line">        dp[i][i] = a[i];</span><br><span class="line">        root[i][i] = i;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;<span class="built_in">dfs</span>(<span class="number">1</span>,n)&lt;&lt;endl;</span><br><span class="line">    <span class="built_in">dg</span>(<span class="number">1</span>,n);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhy-huang.github.io/2021/11/07/acm-jiafenerchashu-md/" data-id="ckvoqukk3000043oeh0htc0xa" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-acm-shouwangzhe-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/11/07/acm-shouwangzhe-md/" class="article-date">
+  <time datetime="2021-11-06T16:19:37.000Z" itemprop="datePublished">2021-11-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/11/07/acm-shouwangzhe-md/">Warcraft III 守望者的烦恼</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>头脑并不发达的warden最近在思考一个问题，她的闪烁技能是可以升级的，k级的闪烁技能最多可以向前移动k个监狱，一共有n个监狱要视察，她从入口进去，一路上有n个监狱，而且不会往回走，当然她并不用每个监狱都视察，但是她最后一定要到第n个监狱里去，因为监狱的出口在那里，但是她并不一定要到第1个监狱。<br>守望者warden现在想知道，她在拥有k级闪烁技能时视察n个监狱一共有多少种方案？</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>第一行是闪烁技能的等级 k (1≤k≤10)<br>第二行是监狱的个数 n (1≤n≤231−1)</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>由于方案个数会很多，所以输出它 mod 7777777后的结果就行了</p>
+<h2 id="EX"><a href="#EX" class="headerlink" title="EX"></a>EX</h2><p>2<br>4</p>
+<p>5</p>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>这道题的状态转移很好找到达第n个监狱的方案数位到达n-1,n-2….n-k个监狱的方案数之和，至于为什么到n-k，因为监狱编号再小是无法通过一步直接到n的，也需要先到n-1<del>n-k中的其中一个再到n，考虑进来就重复了，他们只需要考虑在到达第n-1</del>n-k个监狱就行了。</p>
+<p>但是有个问题是这个数太大了，直接递归恐怕爆了。所以这里引入了矩阵乘法解决递推问题。依据是：</p>
+<p><a href="https://www.codecogs.com/eqnedit.php?latex=[a_k,&space;a_{k-1},&space;a_{k&space;-&space;2},a_{k-3}&space;]*&space;\begin{bmatrix}&space;1&space;&1&space;&0&space;&0&space;\\&space;1&space;&0&space;&1&space;&0&space;\\&space;1&space;&0&space;&0&space;&1&space;\\&space;1&space;&0&space;&0&space;&0&space;\end{bmatrix}&space;=&space;[a_{k&plus;1},&space;a_{k-1},&space;a_{k&space;-&space;2},a_{k-3}&space;]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?[a_k,&space;a_{k-1},&space;a_{k&space;-&space;2},a_{k-3}&space;]*&space;\begin{bmatrix}&space;1&space;&1&space;&0&space;&0&space;\\&space;1&space;&0&space;&1&space;&0&space;\\&space;1&space;&0&space;&0&space;&1&space;\\&space;1&space;&0&space;&0&space;&0&space;\end{bmatrix}&space;=&space;[a_{k&plus;1},&space;a_{k-1},&space;a_{k&space;-&space;2},a_{k-3}&space;]" title="[a_k, a_{k-1}, a_{k - 2},a_{k-3} ]* \begin{bmatrix} 1 &1 &0 &0 \\ 1 &0 &1 &0 \\ 1 &0 &0 &1 \\ 1 &0 &0 &0 \end{bmatrix} = [a_{k+1}, a_{k-1}, a_{k - 2},a_{k-3} ]" /></a></p>
+<p>然后再将得到的结果乘这个矩阵，就可以得到an，也就是想要的结果。</p>
+<p>矩阵乘法好写，但是多个矩阵相乘这里直接用的快速幂。</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mod 7777777</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> k;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> n;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Matrix</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> r,c;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> M[<span class="number">11</span>][<span class="number">11</span>];</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">(<span class="keyword">int</span> r, <span class="keyword">int</span> c)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>-&gt;r = r;</span><br><span class="line">        <span class="keyword">this</span>-&gt;c = c;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; r;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; c;j++)&#123;</span><br><span class="line">                M[i][j] = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    Matrix <span class="keyword">operator</span>*(Matrix&amp; B) <span class="keyword">const</span>&#123;      <span class="comment">//重载矩阵乘法</span></span><br><span class="line">        Matrix A = *<span class="keyword">this</span>;</span><br><span class="line">        Matrix C;</span><br><span class="line">        C.<span class="built_in">init</span>(A.r,B.c);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt;C.r;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; C.c;j++)&#123;</span><br><span class="line">                <span class="keyword">for</span>(<span class="keyword">int</span> q = <span class="number">0</span>;q &lt; A.c;q++)&#123;</span><br><span class="line">                    C.M[i][j] = (C.M[i][j] + A.M[i][q] * B.M[q][j]) % mod;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> C;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Matrix <span class="title">Q_pow</span><span class="params">(<span class="keyword">long</span> <span class="keyword">long</span> p)</span></span>&#123;            <span class="comment">//矩阵快速幂</span></span><br><span class="line">        Matrix tmp = *<span class="keyword">this</span>;</span><br><span class="line">        Matrix ans;</span><br><span class="line">        ans.<span class="built_in">init</span>(<span class="keyword">this</span>-&gt;r, <span class="keyword">this</span>-&gt;r);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; <span class="keyword">this</span>-&gt;r;i++)&#123;     <span class="comment">//单位矩阵</span></span><br><span class="line">            ans.M[i][i] = <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(p)&#123;</span><br><span class="line">            <span class="keyword">if</span>(p &amp; <span class="number">1</span>)&#123;</span><br><span class="line">                ans = ans * tmp;</span><br><span class="line">            &#125;</span><br><span class="line">            tmp = tmp * tmp;</span><br><span class="line">            p &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;k;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line"></span><br><span class="line">    Matrix factor;</span><br><span class="line">    Matrix base;</span><br><span class="line">    factor.<span class="built_in">init</span>(k,k);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; k;i++)&#123;</span><br><span class="line">        factor.M[i][<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt;= k;i++)&#123;</span><br><span class="line">        factor.M[i - <span class="number">1</span>][i] = <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    factor = factor.<span class="built_in">Q_pow</span>(n);</span><br><span class="line">    base.<span class="built_in">init</span>(<span class="number">1</span>,k);</span><br><span class="line">    base.M[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">    base = base * factor;</span><br><span class="line">    cout&lt;&lt;base.M[<span class="number">0</span>][<span class="number">0</span>]&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhy-huang.github.io/2021/11/07/acm-shouwangzhe-md/" data-id="ckvo10kj30000ymoe4gji7uw6" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/3/">Next &amp;raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI-Course/" rel="tag">AI Course</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CV/" rel="tag">CV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HPC/" rel="tag">HPC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" rel="tag">NLP的一些收获</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/QT/" rel="tag">QT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/" rel="tag">数值计算</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" rel="tag">高性能计算</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/ACM/" style="font-size: 20px;">ACM</a> <a href="/tags/AI-Course/" style="font-size: 10px;">AI Course</a> <a href="/tags/CV/" style="font-size: 12.5px;">CV</a> <a href="/tags/HPC/" style="font-size: 10px;">HPC</a> <a href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" style="font-size: 17.5px;">NLP的一些收获</a> <a href="/tags/QT/" style="font-size: 10px;">QT</a> <a href="/tags/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">数值计算</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 15px;">机器学习</a> <a href="/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">高性能计算</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">February 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/01/">January 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/11/">November 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">September 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">August 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/02/13/MPbasedRandomWalk-md/">Meta Path Based Random Walk</a>
+          </li>
+        
+          <li>
+            <a href="/2022/01/19/HPC-OpenCL-md/">OpenCL并行编程框架【高性能计算导论课程作业】</a>
+          </li>
+        
+          <li>
+            <a href="/2022/01/13/HPC-mandelbrot-md/">Mandelbrot Set</a>
+          </li>
+        
+          <li>
+            <a href="/2021/12/21/Adaboost-md/">Adaboost</a>
+          </li>
+        
+          <li>
+            <a href="/2021/11/09/3-layer-MLP-md/">三层感知机-step by step</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 hhy<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
