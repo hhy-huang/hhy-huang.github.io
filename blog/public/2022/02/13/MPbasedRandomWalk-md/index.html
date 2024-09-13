@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Meta Path Based Random Walk | Backgarden</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Meta Path Based Random Walk课题原因需要复现ARNN模型。即“An Attentional Recurrent Neural Networkfor Personalized Next Location Recommendation”这篇论文，早就听说随机游走模型以及PageRank之类的算法，现在算是自己动手复现了，因为其中需要使用随机游走来获得每个POI的neighbo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Meta Path Based Random Walk">
+<meta property="og:url" content="https://hhy-huang.github.io/2022/02/13/MPbasedRandomWalk-md/index.html">
+<meta property="og:site_name" content="Backgarden">
+<meta property="og:description" content="Meta Path Based Random Walk课题原因需要复现ARNN模型。即“An Attentional Recurrent Neural Networkfor Personalized Next Location Recommendation”这篇论文，早就听说随机游走模型以及PageRank之类的算法，现在算是自己动手复现了，因为其中需要使用随机游走来获得每个POI的neighbo">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://latex.codecogs.com/svg.image?M&space;=&space;[m_{ij}]_{n\times&space;n}">
+<meta property="og:image" content="https://latex.codecogs.com/svg.image?\sum_{i&space;=&space;1}^{n}m_{ij}&space;=&space;1">
+<meta property="og:image" content="https://latex.codecogs.com/svg.image?if~~j->i~:~m_{ij}&space;=&space;\frac{1}{d^{&plus;}_{j}}">
+<meta property="og:image" content="https://latex.codecogs.com/svg.image?V_t&space;\epsilon&space;\mathbb{R}^{n&space;\times&space;1}">
+<meta property="og:image" content="https://latex.codecogs.com/svg.image?V_{t&plus;1}&space;=&space;M&space;V_{t}">
+<meta property="article:published_time" content="2022-02-12T16:43:08.000Z">
+<meta property="article:modified_time" content="2022-02-12T18:42:08.817Z">
+<meta property="article:author" content="hhy">
+<meta property="article:tag" content="NLP的一些收获">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://latex.codecogs.com/svg.image?M&space;=&space;[m_{ij}]_{n\times&space;n}">
+  
+    <link rel="alternate" href="/atom.xml" title="Backgarden" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Backgarden</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://hhy-huang.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-MPbasedRandomWalk-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/02/13/MPbasedRandomWalk-md/" class="article-date">
+  <time datetime="2022-02-12T16:43:08.000Z" itemprop="datePublished">2022-02-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Meta Path Based Random Walk
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Meta-Path-Based-Random-Walk"><a href="#Meta-Path-Based-Random-Walk" class="headerlink" title="Meta Path Based Random Walk"></a>Meta Path Based Random Walk</h2><p>课题原因需要复现ARNN模型。即“<strong>An Attentional Recurrent Neural Networkfor Personalized Next Location Recommendation</strong>”这篇论文，早就听说随机游走模型以及PageRank之类的算法，现在算是自己动手复现了，因为其中需要使用随机游走来获得每个POI的neighbors，从而训练attention的权重。</p>
+<p><strong>本文详述该游走模型的复现思路，代码连接会给出，注释充足便不赘述，当然想必也存在不足，如有发现问题，还望及时提出以便修改。</strong></p>
+<p>首先描述一下随机游走（random walk）模型，给定一个含有n个节点都有向图，在有向图上定义随机游走，也就是一阶马尔可夫链，节点可用来表示状态，有向边表示状态之间的转移。</p>
+<p>这里有一个假设，从一个节点通过有向边相连的所有节点的转移概率相等，当节点的type相同时，可以将转移关系描述为n阶的转移矩阵$M$。</p>
+<center>
+<img src="https://latex.codecogs.com/svg.image?M&space;=&space;[m_{ij}]_{n\times&space;n}" title="M = [m_{ij}]_{n\times n}" />
+</center>
+
+<p>它描述的是列下标对应的节点转移至行下标对应的节点的概率，换句话说，$m_{ij}$是j节点指向i节点的概率。那么它的性质也有了。第一个共识很显然，第二个就是如果存在由j指向i的有向边，那么该位置的值位j节点的出度分之一，理由就是他们是等概率的。</p>
+<center>
+<img src="https://latex.codecogs.com/svg.image?\sum_{i&space;=&space;1}^{n}m_{ij}&space;=&space;1" title="\sum_{i = 1}^{n}m_{ij} = 1" />
+</center>
+<center>
+<img src="https://latex.codecogs.com/svg.image?if~~j->i~:~m_{ij}&space;=&space;\frac{1}{d^{&plus;}_{j}}" title="if~~j->i~:~m_{ij} = \frac{1}{d^{+}_{j}}" />
+</center>
+
+<p>这个矩阵$M$也叫做随机矩阵（stochastic matrix）。</p>
+<p>可以理解，$M$是用来进行表征节点的转移偏好的，但游走过程不仅由转移偏好决定，同时也受转移的起点决定。所以提出一个n维向量$V_t$来表征t时刻转移前，本次转移过程的初始节点的概率分布。</p>
+<center>
+<img src="https://latex.codecogs.com/svg.image?V_t&space;\epsilon&space;\mathbb{R}^{n&space;\times&space;1}" title="V_t \epsilon \mathbb{R}^{n \times 1}" />
+</center>
+
+<p>那么：</p>
+<center>
+<img src="https://latex.codecogs.com/svg.image?V_{t&plus;1}&space;=&space;M&space;V_{t}" title="V_{t+1} = M V_{t}" />
+</center>
+
+<p>这里得到的t+1时间步的V就是时间步t这次转移活动在$V_t$初始分布前提下的转移结果分布，因此，可以以这种方式进行迭代，从而进行多次游走。</p>
+<p>那么基于<strong>元路径</strong>的随机游走，大体与之相同，但是也有区别。既然要引入meta path的概念，那么图中节点的种类就不是唯一的，在ARNN要解决的任务中，图中存在三类节点，L:地点，U：访问者，V：地点种类，他们构成图。而基于“LL”、“LVL”、“LUL”这三类元路径的路径都要分别以他们为路径元素type的最小重复单元。</p>
+<p>也就是每次转移的随机矩阵是需要不同的，“LL”就与上面讲的一样，而对“LVL”而言，需要两个随机矩阵，分别是(num_v, n)与(n, num_v)，前者与地点分布向量相乘（单个path起点loc为1，其余均为0），从而得到type为v的节点概率分布向量，后者再与地点种类分布向量相乘，又得到地点分布向量，然后继续如此迭代。</p>
+<p>“LUL”也是如此。</p>
+<p>需要注意的是，这里我虽然将三类节点统一编码，并用三元组构成图谱，但并没有将所有类型的节点放在同一个tensor里，而是meta path在当前需要什么类型，我就单独把起点与终点的类型的节点构成tensor来进行计算，拓扑上讲就是讲图拆分，但是概率依赖关系不受影响。因为我认为所有实体的个数作为tensor的大小用来计算，效率会很低，不如拆分成多组tensor，直观且高效。</p>
+<p>思路就是这样，代码实现方面，一开始按照<a target="_blank" rel="noopener" href="https://github.com/xinbowu2">@Xinbo Wu</a>复现Personalised Page Rank的方法编写，使用dict来进行矩阵运算，结果显然是差强人意的，面对foursquare的数据运算效率就已经无法接受了，因此使用tensor放到GPU上进行运算，结果明显快了很多，效率勉强让人接受，其实也许可以通过解决矩阵稀疏的问题再加快游走效率，作者目前能力有限，没找到能更加提高效率的办法，希望大家给予思路。</p>
+<p>代码链接如下：<br><a target="_blank" rel="noopener" href="https://github.com/hhy-huang/Meta-Path-Based-Random-Walk">https://github.com/hhy-huang/Meta-Path-Based-Random-Walk</a></p>
+<p>【参考《统计学习方法》李航】</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhy-huang.github.io/2022/02/13/MPbasedRandomWalk-md/" data-id="ckzk2pxly0001i3oe27tmerkw" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" rel="tag">NLP的一些收获</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/01/19/HPC-OpenCL-md/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">OpenCL并行编程框架【高性能计算导论课程作业】</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI-Course/" rel="tag">AI Course</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CV/" rel="tag">CV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HPC/" rel="tag">HPC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" rel="tag">NLP的一些收获</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/QT/" rel="tag">QT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/" rel="tag">数值计算</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" rel="tag">高性能计算</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/ACM/" style="font-size: 20px;">ACM</a> <a href="/tags/AI-Course/" style="font-size: 10px;">AI Course</a> <a href="/tags/CV/" style="font-size: 12.5px;">CV</a> <a href="/tags/HPC/" style="font-size: 10px;">HPC</a> <a href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" style="font-size: 17.5px;">NLP的一些收获</a> <a href="/tags/QT/" style="font-size: 10px;">QT</a> <a href="/tags/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">数值计算</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 15px;">机器学习</a> <a href="/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">高性能计算</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">February 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/01/">January 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/11/">November 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">September 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">August 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/02/13/MPbasedRandomWalk-md/">Meta Path Based Random Walk</a>
+          </li>
+        
+          <li>
+            <a href="/2022/01/19/HPC-OpenCL-md/">OpenCL并行编程框架【高性能计算导论课程作业】</a>
+          </li>
+        
+          <li>
+            <a href="/2022/01/13/HPC-mandelbrot-md/">Mandelbrot Set</a>
+          </li>
+        
+          <li>
+            <a href="/2021/12/21/Adaboost-md/">Adaboost</a>
+          </li>
+        
+          <li>
+            <a href="/2021/11/09/3-layer-MLP-md/">三层感知机-step by step</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 hhy<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
