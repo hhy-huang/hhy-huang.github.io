@@ -19,5 +19,4 @@ main:
     url: "/#-invited-talks"
 
   - title: "Internships"
-  - url: "./blog/public/index.html"
-  #   url: "/#-internships"
+    url: "./blog/public/index.html"
