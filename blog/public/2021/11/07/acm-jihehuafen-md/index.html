@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>集合划分 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Problemn个元素的集合{1,2,…, n }可以划分为若干个非空子集。例如，当n&#x3D;4 时，集合{1，2，3，4}可以划分为15 个不同的非空子集如下： 1234567891011121314151617181920212223242526272829&amp;#123;&amp;#123;1&amp;#125;，&amp;#123;2&amp;#125;，&amp;#123;3&amp;#125;，&amp;#123;4&amp;#125;&amp;#125;，&amp;#12">
+<meta property="og:type" content="article">
+<meta property="og:title" content="集合划分">
+<meta property="og:url" content="http://example.com/2021/11/07/acm-jihehuafen-md/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Problemn个元素的集合{1,2,…, n }可以划分为若干个非空子集。例如，当n&#x3D;4 时，集合{1，2，3，4}可以划分为15 个不同的非空子集如下： 1234567891011121314151617181920212223242526272829&amp;#123;&amp;#123;1&amp;#125;，&amp;#123;2&amp;#125;，&amp;#123;3&amp;#125;，&amp;#123;4&amp;#125;&amp;#125;，&amp;#12">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-11-07T12:39:42.000Z">
+<meta property="article:modified_time" content="2021-11-07T12:57:33.062Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="ACM">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-acm-jihehuafen-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/11/07/acm-jihehuafen-md/" class="article-date">
+  <time datetime="2021-11-07T12:39:42.000Z" itemprop="datePublished">2021-11-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      集合划分
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>n个元素的集合{1,2,…, n }可以划分为若干个非空子集。例如，当n=4 时，集合{1，2，3，4}可以划分为15 个不同的非空子集如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;1&#125;，&#123;2&#125;，&#123;3&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2&#125;，&#123;3&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，3&#125;，&#123;2&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，4&#125;，&#123;2&#125;，&#123;3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;2，3&#125;，&#123;1&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;2，4&#125;，&#123;1&#125;，&#123;3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;3，4&#125;，&#123;1&#125;，&#123;2&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2&#125;，&#123;3，4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，3&#125;，&#123;2，4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，4&#125;，&#123;2，3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2，3&#125;，&#123;4&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2，4&#125;，&#123;3&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，3，4&#125;，&#123;2&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;2，3，4&#125;，&#123;1&#125;&#125;，</span><br><span class="line"></span><br><span class="line">&#123;&#123;1，2，3，4&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>给定正整数n，计算出n 个元素的集合{1,2,…, n }可以划分为多少个不同的非空子集。</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>多组输入(&lt;=10组数据，读入以EOF结尾) 每组一行输入一个数字，n(0&lt; n &lt;=18)</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>每组输出一行结果。</p>
+<h2 id="EX"><a href="#EX" class="headerlink" title="EX"></a>EX</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">15</span><br></pre></td></tr></table></figure>
+
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>这道题一开始从整体上分析无从下手，但是不难体会到它是存在递推关系的，复杂问题可以将其分解为一步一步的小问题。因此可以从划分为一组开始讨论，每增加一个分组后划情况数会经历怎样的改变？（这个改变必须于上一个状态的划分数相关才可构成递推关系），</p>
+<p>可以发现一种加法是将其中一个元素拿出，将该元素加入到n-1个元素的分组中，但是这样少考虑了该元素单独在一个组的情况，因此还需要加上这种情况的个数，也就是n-1个元素划分为m-1个set的个数。这样就构成了递推关系，可以递推到元素越来越少的情况，直到return1。</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> a[<span class="number">20</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> i, <span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(i == <span class="number">1</span> || i &gt;= n)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">f</span>(i, n - <span class="number">1</span>)*i + <span class="built_in">f</span>(i - <span class="number">1</span>, n - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">while</span>(cin&gt;&gt;n)&#123;</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt;= n;i++) &#123; <span class="comment">//对划分块数遍历</span></span><br><span class="line">            ans += <span class="built_in">f</span>(i, n);</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;ans&lt;&lt;endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/11/07/acm-jihehuafen-md/" data-id="ckvp8ovv100003coeel4dgcv8" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2021/11/08/acm-zhengshumicifang-md/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          acm-zhengshumicifang.md
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/11/07/acm-qingdi-md/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">清帝之惑之顺治</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ACM/" rel="tag">ACM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI-Course/" rel="tag">AI Course</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CV/" rel="tag">CV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HPC/" rel="tag">HPC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" rel="tag">NLP的一些收获</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/QT/" rel="tag">QT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/" rel="tag">数值计算</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" rel="tag">高性能计算</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/ACM/" style="font-size: 20px;">ACM</a> <a href="/tags/AI-Course/" style="font-size: 10px;">AI Course</a> <a href="/tags/CV/" style="font-size: 12.5px;">CV</a> <a href="/tags/HPC/" style="font-size: 10px;">HPC</a> <a href="/tags/NLP%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B6%E8%8E%B7/" style="font-size: 17.5px;">NLP的一些收获</a> <a href="/tags/QT/" style="font-size: 10px;">QT</a> <a href="/tags/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">数值计算</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 15px;">机器学习</a> <a href="/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">高性能计算</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/04/">April 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">March 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">February 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/01/">January 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/11/">November 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">September 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">August 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/04/26/ARNN-md/">ARNN复现反思</a>
+          </li>
+        
+          <li>
+            <a href="/2022/03/06/linux-command-md/">linux_command.md</a>
+          </li>
+        
+          <li>
+            <a href="/2022/02/13/MPbasedRandomWalk-md/">Meta Path Based Random Walk</a>
+          </li>
+        
+          <li>
+            <a href="/2022/01/19/HPC-OpenCL-md/">OpenCL并行编程框架【高性能计算导论课程作业】</a>
+          </li>
+        
+          <li>
+            <a href="/2022/01/13/HPC-mandelbrot-md/">Mandelbrot Set</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

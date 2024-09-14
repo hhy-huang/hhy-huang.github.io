@@ -19,4 +19,4 @@ main:
     url: "/#-invited-talks"
 
   - title: "Internships"
-    url: "./dark-theme-editor-main/layouts/_default/home.html"
+    url: "./blog"
