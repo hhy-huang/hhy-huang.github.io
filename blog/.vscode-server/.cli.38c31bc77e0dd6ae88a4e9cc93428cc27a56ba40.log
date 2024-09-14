@@ -1,6 +1,0 @@
-Listening on 127.0.0.1:38789
-[2024-09-14 00:26:28] info Disposed of connection to running server.
-looking for token 242167e2-7d5c-47e3-b387-cfd5537e0b70, got Some("242167e2-7d5c-47e3-b387-cfd5537e0b70")
-[2024-09-14 00:26:28] info Checking /uac/msc/hyhuang24/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/log.txt and /uac/msc/hyhuang24/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/pid.txt for a running server...
-[2024-09-14 00:26:28] info Downloading Visual Studio Code server -> /tmp/.tmpFfFvmK/vscode-server-linux-legacy-x64.tar.gz
-[2024-09-14 00:28:31] info Disposed of connection to running server.
