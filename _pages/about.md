@@ -29,6 +29,7 @@ My research interests mainly focus on Data Mining, Large Language Models, Graph 
 
 # 🔥 News
 
+- _2024.09_: &nbsp;🎉🎉 Winner of Entrance Scholarship 2024-25 of CUHK-CSE!
 - _2024.05_: &nbsp;🎉🎉 Admitted by MSCogSci of University of Edinburgh(QS#27)!
 - _2023.12_: &nbsp;🎉🎉 Joined CMLR as Research Intern, full-time for research!
 - _2023.10_: &nbsp;🎉🎉 Admitted by MSCS of CUHK(QS#36)!
@@ -72,6 +73,7 @@ Provides students with a platform for learning to assemble Baidu's Apollo driver
 
 # 🎖 Honors and Awards
 
+- _2024_ CUHK Entrance Scholarship
 - _2021_ Beijing Jiaotong University Social Work Scholarship
 - _2021_ Third Prize of Mathematical Modelling Competition for College Students of Beijing Jiaotong University
 - _2021_ Second Prize of Programming Competition for College Students of Beijing Jiaotong University
