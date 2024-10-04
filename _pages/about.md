@@ -120,4 +120,7 @@ Provides students with a platform for learning to assemble Baidu's Apollo driver
 <br>
 <br>
 <br>
+
+***God, grant me the serenity to accept the things I cannot change,***<br>***the courage to change the things I can change,***<br>***and the wisdom to know the difference.***
+
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=yvObhKSEGg9GY-P_Ek2xBvgApym5v6ZpqFHzy7qndUc&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080&w=350'></script>
