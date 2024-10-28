@@ -25,7 +25,7 @@ Before that, I worked at [Century Games](https://www.centurygames.com) AI Group 
 
 Previously, I got my B.S. degree in School of Computer and Information Technology from Beijing Jiaotong University (BJTU).
 
-My research interests mainly focus on Data Mining, Large Language Models, Graph ML and Recommendation System.
+My research interests mainly focus on Data Mining, Large Language Models, Knowledge Graph and Recommendation System.
 
 # 🔥 News
 
