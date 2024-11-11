@@ -73,12 +73,13 @@ Provides students with a platform for learning to assemble Baidu's Apollo driver
 
 # 🎖 Honors and Awards
 
+- _2024_ [National] Second Prize of The China Post-Graduate Mathematical Contest in Modeling (CPMCM)
 - _2024_ CUHK Entrance Scholarship
 - _2021_ Beijing Jiaotong University Social Work Scholarship
 - _2021_ Third Prize of Mathematical Modelling Competition for College Students of Beijing Jiaotong University
 - _2021_ Second Prize of Programming Competition for College Students of Beijing Jiaotong University
 - _2020_ Beijing Jiaotong University Third Class Scholarship for Academic Excellence
-- _2020_ Bronze Award in the National College Student Algorithm Design and Programming Challenge
+- _2020_ [National] Bronze Award in the National College Student Algorithm Design and Programming Challenge
 - _2020_ First Prize in Mathematics Competition for College Students of Beijing Jiaotong University
 
 # 📖 Educations
