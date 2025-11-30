@@ -92,3 +92,78 @@ code {
   /* color: #0047ab !important; 
 }
  */
+
+/* Open-Source Projects Styles */
+.project-list {
+  margin-top: 20px;
+}
+
+.project-item {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.project-logo {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.project-description {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+  color: #555;
+}
+
+.project-links {
+  margin: 10px 0;
+}
+
+.project-links .link {
+  margin-right: 10px;
+}
+
+.project-badges {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-badges .badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.project-badges img {
+  height: 20px;
+  margin-left: 0;
+}
