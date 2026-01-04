@@ -21,6 +21,9 @@ ul.i_table{
     margin: 0;
     padding: 0;
 }
+ul.i_table li{
+    margin-bottom: 20px;
+}
 
 p.intro{
     font-family: 'Times New Roman', Times, serif;
