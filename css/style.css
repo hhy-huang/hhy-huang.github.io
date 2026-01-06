@@ -17,7 +17,7 @@ p{
     font-size: 15px;
 }
 h3{
-    color: #4d3c6e;
+    color: #000000;
 }
 ul.i_table{
     list-style: none;
@@ -25,7 +25,7 @@ ul.i_table{
     padding: 0;
 }
 ul.i_table li{
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
 }
 
 p.intro{
