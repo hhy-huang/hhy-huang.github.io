@@ -27,6 +27,20 @@ ul.i_table{
 ul.i_table li{
     margin-bottom: 20px;  
 }
+ul.news li{
+    margin-bottom: 8px;
+}
+ul.news li p{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+ul.news span.date{
+    float: none;
+    padding-right: 0;
+    flex-shrink: 0;
+}
 
 p.intro{
     font-family: 'Times New Roman', Times, serif;
