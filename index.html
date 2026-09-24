@@ -103,21 +103,48 @@
           Before that, I got my master degree from <a href="https://www.cuhk.edu.hk/english/index.html" target="_blank">CUHK</a>, advised by <a href="https://www.cse.cuhk.edu.hk/~jcheng/" target="_blank">Prof. James Cheng</a>. I also got my B.E. degree from <a href="https://www.bjtu.edu.cn/" target="_blank">BJTU</a>, advised by <a href="https://faculty.bjtu.edu.cn/8793/" target="_blank">Prof. Huaiyu Wan</a>. I also worked as a Research Assistant in the <a href="https://cmlr.pku.edu.cn/" target="_blank">Center of Machine Learning Research</a> of <a href="https://www.pku.edu.cn/" target="_blank">PKU</a>, advised by <a href="https://zwt233.github.io/" target="_blank">Prof. Wentao Zhang</a>.
         </p>
         <p>
-          My research interests include some key aspects of knowledge-centric agentic systems:
+          My research interests include full-stack techniques of knowledge-centric agentic systems:
         </p>
         <ul>
-          <li><strong>In-Parameter Memory for LLMs</strong>: 
-            <a class="link" href="https://arxiv.org/abs/2510.17934">AtlasKV</a>.</li>
-          <li><strong>Agentic Post-Training (SFT, RL)</strong>: 
-            <a class="link" href="https://arxiv.org/abs/2605.10488">DeepRefine</a>,
-            <a class="link" href="https://arxiv.org/abs/2510.15339">AutoGraph-R1</a>.</li>
-          <li><strong>Non-Parametric Memory for LLMs</strong>:
-            <a class="link" href="https://arxiv.org/abs/2503.10150">HiRAG</a>,
-            <a class="link" href="https://arxiv.org/abs/2505.23628">AutoSchemaKG</a>, 
-            <a class="link" href="https://arxiv.org/abs/2411.17388">GraphJudge</a>.</li>
-          <li><strong>Recommendation Systems</strong>:
-            <a class="link" href="https://www.sciencedirect.com/science/article/pii/S0950705122010449#:~:text=In%20this%20work%2C%20we%20investigate%20building%20a%20spatial%E2%80%93temporal,introducing%20any%20external%20attributes%20of%20users%20and%20POIs.">STKGRec</a>, 
-            <a class="link" href="https://ieeexplore.ieee.org/document/10904285">STKG-PLM</a>.</li>
+          <li><strong>Knowledge Construction and Management</strong>
+            <ul>
+              <li><strong>Knowledge Self-Improvement</strong>:
+                <a class="link" href="https://arxiv.org/abs/2605.10488">DeepRefine</a> (arXiv),
+                <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:Tiz5es2fbqcC">PatchWorld</a> (arXiv).
+              </li>
+              <li><strong>Knowledge Graph Construction</strong>:
+                <a class="link" href="https://arxiv.org/abs/2411.17388">GraphJudge</a> (EMNLP'25),
+                <a class="link" href="https://arxiv.org/abs/2510.15339">AutoGraph-R1</a> (ACL'26),
+                <a class="link" href="https://arxiv.org/abs/2505.23628">AutoSchemaKG</a> (ACL'26).
+              </li>
+            </ul>
+          </li>
+          <li><strong>Knowledge Augmentation for LLMs</strong>
+            <ul>
+              <li><strong>Parametric External Memory/Knowledge for LLMs</strong>:
+                <a class="link" href="https://arxiv.org/abs/2510.17934">AtlasKV</a> (ICLR'26).
+              </li>
+              <li><strong>Non-Parametric External Memory/Knowledge for LLMs</strong>:
+                <a class="link" href="https://arxiv.org/abs/2503.10150">HiRAG</a> (EMNLP'25 Findings),
+                <a class="link" href="https://arxiv.org/abs/2510.15339">AutoGraph-R1</a> (ACL'26),
+                <a class="link" href="https://arxiv.org/abs/2505.23628">AutoSchemaKG</a> (ACL'26),
+                <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:tOudhMTPpwUC">ACE-GraphRAG</a> (arXiv).
+              </li>
+            </ul>
+          </li>
+          <li><strong>Knowledge Applications</strong>
+            <ul>
+              <li><strong>Recommendation</strong>:
+                <a class="link" href="https://www.sciencedirect.com/science/article/pii/S0950705122010449">STKGRec</a> (KBS'22),
+                <a class="link" href="https://ieeexplore.ieee.org/document/10904285">STKG-PLM</a> (TKDE'25).
+              </li>
+              <li><strong>Neural Graph Databases</strong>:
+                <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&citation_for_view=tWnT7wEAAAAJ:pyW8ca7W8N0C">NGDBench</a> (EMNLP'26 Findings),
+                <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:ZeXyd9-uunAC">NGDB-Zoo</a> (arXiv),
+                <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:M05iB0D1s5AC">KGPFN</a> (arXiv).
+              </li>
+            </ul>
+          </li>
         </ul>
         <div style="text-align: center; margin: 24px 0;">
           <img src="photos/work_dim.png" alt="Research overview" style="max-width: 50%; height: auto;">
@@ -295,6 +322,124 @@
             <br>
             <a class="link" href="https://ieeexplore.ieee.org/document/10904285">[paper]</a>
             <a class="link" href="https://github.com/WeiChen3690/STKG-PLM">[code]</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <h3>Other Publications</h3>
+        * indicates equal contributions.
+        <p></p>
+        <ul class="i_table">
+          <li>
+            <p class="pub">
+              <strong>
+              ACE-GraphRAG: Agentic Context Engineering for Hierarchical GraphRAG
+              </strong>
+            <p class="author">
+              Yongfeng Huang, Yuren Lai, Ruiying Chen, <u>Haoyu Huang</u>, Mingming Zhao, James Cheng#
+            </p>
+            In <span style="font-style: italic;">
+                Submission
+            </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:tOudhMTPpwUC">[paper]</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub">
+              <strong>
+                AutoSchemaKG: Autonomous knowledge graph construction through dynamic schema induction from web-scale corpora
+              </strong>
+            <p class="author">
+              Jiaxin Bai, Wei Fan, Qi Hu, Qing Zong, Chunyang Li, Hong Ting Tsang, Hongyu Luo, Yauwai Yim, <u>Haoyu Huang</u>, ..., Yangqiu Song#
+            </p>
+            In <span style="font-style: italic;">
+              Annual Meeting of the Association for Computational Linguistics (<b>ACL</b>), 2026, Main Conference
+            </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:bnK-pcrLprsC">[paper]</a>
+            <a class="link" href="https://github.com/HKUST-KnowComp/AutoSchemaKG">[code]</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub">
+              <strong>
+                PatchWorld: Gradient-Free Optimization of Executable World Models
+              </strong>
+            <p class="author">
+              Jiaxin Bai, Yue Guo, Yifei Dong, Jiaxuan Xiong, Tianshi Zheng, Yixia Li, Tianqing Fang, Yufei Li, Yisen Gao, <u>Haoyu Huang</u>,.., Jeff Z. Pan, Yangqiu Song#
+            </p>
+            In <span style="font-style: italic;">
+              Submission
+            </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:Tiz5es2fbqcC">[paper]</a>
+            <a class="link" href="https://github.com/HKBU-KnowComp/PatchWorld">[code]</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub">
+              <strong>
+                KGPFN: Unlocking the Potential of Knowledge Graph Foundation Model via In-Context Learning
+              </strong>
+            <p class="author">
+              Yisen Gao, Jiaxin Bai, <u>Haoyu Huang</u>, Zhongwei Xie, Yufei Li, Hong Ting Tsang, Sirui Han, Yangqiu Song#
+            </p>
+            In <span style="font-style: italic;">
+              Submission
+            </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:M05iB0D1s5AC">[paper]</a>
+            <a class="link" href="https://github.com/HKUST-KnowComp/KGPFN">[code]</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub">
+              <strong>
+                NGDB-Zoo: Towards Efficient and Scalable Neural Graph Databases Training
+              </strong>
+            <p class="author">
+              Zhongwei Xie, Jiaxin Bai, Shujie Liu, <u>Haoyu Huang</u>, Yufei Li, Yisen Gao, Hong Ting Tsang, Yangqiu Song#
+            </p>
+            In <span style="font-style: italic;">
+              Submission
+                    </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&sortby=pubdate&citation_for_view=tWnT7wEAAAAJ:ZeXyd9-uunAC">[paper]</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub">
+              <strong>
+                NGDBench: Towards Neural Graph Data Management
+              </strong>
+            <p class="author">
+              Yufei Li*, Yisen Gao*, Jiaxuan Xiong, Jiaxin Bai, Shijie Zhong, <u>Haoyu Huang</u>, Zhongwei Xie, Hong Ting Tsang, Yangqiu Song#
+            </p>
+            In <span style="font-style: italic;">
+              Empirical Methods in Natural Language Processing (<b>EMNLP</b>), 2026, Findings
+              </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&citation_for_view=tWnT7wEAAAAJ:pyW8ca7W8N0C">[paper]</a>
+            <a class="link" href="https://github.com/HKUST-KnowComp/NGDBench">[code]</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub">
+              <strong>
+                Building and exploiting spatial–temporal knowledge graph for next POI recommendation
+              </strong>
+            <p class="author">
+              Wei Chen, Huaiyu Wan, Shengnan Guo, <u>Haoyu Huang</u>, Shaojie Zheng, Jiamu Li, Shuohao Lin, Youfang Lin#
+            </p>
+            In <span style="font-style: italic;">
+              Knowledge-Based Systems (<b>KBS</b>), 2022
+              </span>
+            <a class="link" href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=tWnT7wEAAAAJ&citation_for_view=tWnT7wEAAAAJ:8AbLer7MMksC">[paper]</a>
+            <a class="link" href="https://github.com/WeiChen3690/STKGRec">[code]</a>
             </p>
           </li>
         </ul>
