@@ -191,3 +191,80 @@ code {
   height: 20px;
   margin-left: 0;
 }
+
+/* Internships */
+ul.internships li.intern-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.intern-icon-wrap {
+  width: 40px;
+  height: 40px;
+  min-width: 48px;
+  border-radius: 0;
+  overflow: hidden;
+  margin-right: 14px;
+  background: transparent;
+  box-sizing: border-box;
+}
+.intern-icon-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.intern-icon-microsoft {
+  border-radius: 0;
+  background: transparent;
+}
+.intern-icon-kasma {
+  border-radius: 10px;
+  background: #2E3092;
+}
+.intern-body {
+  flex: 1;
+  min-width: 0;
+}
+.intern-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.intern-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.3;
+}
+.intern-name a {
+  color: inherit;
+}
+.intern-name a:hover {
+  color: #337ab7;
+}
+.intern-role {
+  font-size: 14px;
+  color: #333;
+  margin-top: 1px;
+}
+.intern-loc {
+  font-size: 13px;
+  color: #888;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.intern-loc svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+ul.internships span.date {
+  float: none;
+  padding-right: 0;
+  flex-shrink: 0;
+  font-size: 13px;
+}
