@@ -19,6 +19,41 @@ p{
 h3{
     color: #000000;
 }
+details.other-pubs {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+details.other-pubs:not([open]) > :not(summary) {
+    display: none !important;
+}
+details.other-pubs > summary {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #000;
+    cursor: pointer;
+    list-style: none;
+}
+details.other-pubs > summary::-webkit-details-marker {
+    display: none;
+}
+details.other-pubs > summary::before {
+    content: "▸";
+    display: inline-block;
+    width: 0.9em;
+    font-size: 0.75em;
+    color: #666;
+}
+details.other-pubs[open] > summary::before {
+    content: "▾";
+}
+details.other-pubs > summary:hover {
+    color: #337ab7;
+}
+p.other-pubs-note {
+    margin: 10px 0 0;
+}
 ul.i_table{
     list-style: none;
     margin: 0;
