@@ -8,6 +8,9 @@
 
   <title>Haoyu Huang</title>
   <link rel="icon" type="image/png" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <style>
@@ -35,80 +38,31 @@
 </head>
 
 <body>
+  <main class="container page-content">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#service">Service</a>
+    </nav>
 
-  <!-- <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a class="link" href="#About">About</a></li>
-                    <li><a class="link" href="#Publications">Publications</a></li>
-                    <li><a class="link" href="#Hornors">Hornors</a></li>
-                    <li><a class="link" href="#Misc">Misc</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="photos/good3.jpg" class="img-square img-thumbnail" style="width: 200px; float: left;margin-right: 40px;margin-bottom: 10px;">
-          </div>
-          <div class="col-md-6" style="text-align: left;">
-            <h1>Haoyu Huang</h1>
-              <p class="intro", style="margin-top:35px;">Ph.D. Student</p>
-              <p class="intro", style="margin-top:2px;">HKUST</p>
-              <p class="intro", style="margin-top:2px;"><b>Email:</b> hhuangcp [at] connect (dot) ust (dot) hk</p>
-            <div class="intro", style="margin-top:10px;">
-              <span>
-                <!-- available upon request -->
-                <!-- <a class="link" href="files/TODO.pdf">CV</a> / -->
-                <a class="link" href="https://github.com/hhy-huang">Github</a> /
-                <a class="link" href="https://scholar.google.com/citations?hl=zh-CN&user=tWnT7wEAAAAJ">Publications</a> /
-                <a class="link" href="https://x.com/haoy0911">Twitter</a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-  </div>
-
-  <div class="container" style="padding-top: 30px;">
-    <!--Bio-->
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8">
+    <section class="profile" id="about">
+      <img src="photos/good3.jpg" class="profile-photo" alt="Portrait of Haoyu Huang">
+      <h1>Haoyu Huang</h1>
+      <p class="profile-role">Ph.D. Student at HKUST</p>
+      <p class="profile-email">Email: <span>hhuangcp [at] connect (dot) ust (dot) hk</span></p>
         <p>
-          I am a Ph.D. student of <b><a href="https://cse.hkust.edu.hk/" target="_blank">HKUST</a></b>, advised by <a href="https://home.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. I am also a research intern at <b><a href="https://www.msra.cn/">Microsoft Research Aisa</a></b>.
+          I am a Ph.D. student of <b><a href="https://cse.hkust.edu.hk/" target="_blank">HKUST</a></b>, advised by <a href="https://home.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. I am also a research intern at <b><a href="https://www.msra.cn/">Microsoft Research Asia</a></b>.
         </p>
         <p>
           I got my master degree from CUHK, advised by <a href="https://www.cse.cuhk.edu.hk/~jcheng/" target="_blank">Prof. James Cheng</a>. I also got my B.E. degree from BJTU, advised by <a href="https://faculty.bjtu.edu.cn/8793/" target="_blank">Prof. Huaiyu Wan</a>. I worked as a research intern in the DCAI group of PKU, advised by <a href="https://zwt233.github.io/" target="_blank">Prof. Wentao Zhang</a>. I also spent some time building <a class="link" href="https://github.com/Kasma-Inc/Sagi" target="_blank">DeepSearch agents</a>, during my internship at <a class="link" href="https://kasma.ai/" target="_blank">Kasma.ai</a>.
         </p>
         <p>
-          My current research focuses on Long-Horizon Agents, Word Models, and LLM Memory. I enjoy building interesting systems and I'm also trying to write some blog posts from time to time.
+          My current research focuses on Long-Horizon Agents, World Models, and LLM Memory. I enjoy building interesting systems and I'm also trying to write some blog posts from time to time.
         </p>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
+      <p class="profile-links">Find me on <a href="https://scholar.google.com/citations?hl=zh-CN&user=tWnT7wEAAAAJ">Google Scholar</a>, <a href="https://github.com/hhy-huang">GitHub</a>, and <a href="https://x.com/haoy0911">X</a>.</p>
+    </section>
 
     <!--News-->
     <div class="row">
@@ -164,7 +118,7 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-8">
-        <h3>Open-Source Projects</h3>
+        <h3 id="projects">Open-Source Projects</h3>
         <p></p>
         <ul class="i_table">
           <li>
@@ -199,7 +153,7 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-8">
-        <h3>Selected Preprints and Publications</h3>
+        <h3 id="publications">Selected Preprints and Publications</h3>
         * indicates equal contributions.
         <p></p>
         <ul class="i_table selected-publications">
@@ -548,7 +502,7 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-8">
-        <h3>Education</h3>
+        <h3 id="experience">Education</h3>
         <ul class="i_table">
           <li>
             <p>
@@ -588,7 +542,7 @@
             <div class="intern-body">
               <div class="intern-top">
                 <div>
-                  <div class="intern-name"><a class="link" href="https://www.microsoft.com/research/" target="_blank">Microsoft Research Aisa</a></div>
+                  <div class="intern-name"><a class="link" href="https://www.microsoft.com/research/" target="_blank">Microsoft Research Asia</a></div>
                   <div class="intern-role">Research Intern</div>
                   <div class="intern-loc">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#9aa0a6" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
@@ -648,7 +602,7 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-8">
-        <h3>Academic Service</h3>
+        <h3 id="service">Academic Service</h3>
         <ul class="i_table">
           <li>
           </li>
@@ -714,7 +668,7 @@
         </div> -->
 
     <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=yvObhKSEGg9GY-P_Ek2xBvgApym5v6ZpqFHzy7qndUc&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080&w=350'></script>
-  </div>
+  </main>
 
   <footer class="footer">
     <div class="container" style="text-align: center;">
