@@ -1,0 +1,386 @@
+{
+  "nodes": [
+    {
+      "id": "good2_candid_portrait_photo",
+      "label": "Candid Portrait Photo (good2.png)",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_medium_shot_framing",
+      "label": "Medium-Shot Portrait Framing",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "composition",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_young_man_subject",
+      "label": "Young Man (Portrait Subject)",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "foreground subject",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_dark_bowl_cut_hair",
+      "label": "Dark Bowl-Cut Hair",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "subject head",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_eyeglasses",
+      "label": "Eyeglasses",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "subject face",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_faint_smile",
+      "label": "Faint Smile Expression",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "subject face",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_leftward_gaze",
+      "label": "Gaze Slightly Left of Camera",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "subject face",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_dark_hooded_jacket",
+      "label": "Dark Hooded Jacket",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "subject attire",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_rustic_interior_background",
+      "label": "Rustic Interior Background",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "background",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_wood_framed_frosted_glass",
+      "label": "Wood-Framed Frosted Glass Partition",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "background wall",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_dim_warm_lighting",
+      "label": "Dim Warm Low-Light Illumination",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "lighting",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_grainy_vintage_look",
+      "label": "Grainy Vintage Photo Quality",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "image texture",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_lens_flare_streaks",
+      "label": "Lens Flare Streaks (Left Side)",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": "left frame edge",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_photos_static_asset",
+      "label": "Photos Folder Static Asset",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good2_alternate_profile_candidate",
+      "label": "Alternate Personal Profile Photo Candidate",
+      "file_type": "image",
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_medium_shot_framing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "composition",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_young_man_subject",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "foreground subject",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_young_man_subject",
+      "target": "good2_dark_bowl_cut_hair",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "subject head",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_young_man_subject",
+      "target": "good2_eyeglasses",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "subject face",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_young_man_subject",
+      "target": "good2_faint_smile",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "subject face",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_young_man_subject",
+      "target": "good2_leftward_gaze",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "subject face",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_young_man_subject",
+      "target": "good2_dark_hooded_jacket",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "subject attire",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_rustic_interior_background",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "background",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_rustic_interior_background",
+      "target": "good2_wood_framed_frosted_glass",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "background wall",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_dim_warm_lighting",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "lighting",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_dim_warm_lighting",
+      "target": "good2_grainy_vintage_look",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "photos/good2.png",
+      "source_location": "image texture",
+      "weight": 0.78
+    },
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_lens_flare_streaks",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good2.png",
+      "source_location": "left frame edge",
+      "weight": 1.0
+    },
+    {
+      "source": "good2_lens_flare_streaks",
+      "target": "good2_dim_warm_lighting",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "photos/good2.png",
+      "source_location": "lighting",
+      "weight": 0.72
+    },
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_photos_static_asset",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "good2_candid_portrait_photo",
+      "target": "good2_alternate_profile_candidate",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.68,
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "weight": 0.68
+    },
+    {
+      "source": "good2_alternate_profile_candidate",
+      "target": "index_html_personal_academic_homepage",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "good2_young_man_subject",
+      "target": "index_html_haoyu_huang",
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.28,
+      "source_file": "photos/good2.png",
+      "source_location": null,
+      "weight": 0.28
+    },
+    {
+      "source": "good2_dim_warm_lighting",
+      "target": "good2_candid_portrait_photo",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "photos/good2.png",
+      "source_location": "lighting",
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "good2_portrait_subject_features",
+      "label": "Portrait Subject Visual Features",
+      "nodes": [
+        "good2_young_man_subject",
+        "good2_dark_bowl_cut_hair",
+        "good2_eyeglasses",
+        "good2_faint_smile",
+        "good2_leftward_gaze",
+        "good2_dark_hooded_jacket"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "photos/good2.png"
+    },
+    {
+      "id": "good2_ambient_scene_mood",
+      "label": "Ambient Scene and Mood",
+      "nodes": [
+        "good2_rustic_interior_background",
+        "good2_wood_framed_frosted_glass",
+        "good2_dim_warm_lighting",
+        "good2_grainy_vintage_look",
+        "good2_lens_flare_streaks"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/good2.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

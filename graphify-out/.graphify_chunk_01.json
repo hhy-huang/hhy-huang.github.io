@@ -1,0 +1,698 @@
+{
+  "nodes": [
+    {
+      "id": "readme_md_empty_readme",
+      "label": "Empty README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_personal_academic_homepage",
+      "label": "Personal academic homepage",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L1-L721",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Haoyu Huang",
+      "contributor": null
+    },
+    {
+      "id": "index_html_haoyu_huang",
+      "label": "Haoyu Huang",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L72-L76",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_hkust_cse",
+      "label": "HKUST CSE (Ph.D. affiliation)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L100-L101",
+      "source_url": "https://cse.hkust.edu.hk/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_prof_yangqiu_song",
+      "label": "Prof. Yangqiu Song (Ph.D. advisor)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L100",
+      "source_url": "https://home.cse.ust.hk/~yqsong/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_microsoft_research_asia",
+      "label": "Microsoft Research Asia (internship)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L100-L101",
+      "source_url": "https://www.msra.cn/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_cuhk",
+      "label": "CUHK (M.Sc.)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": "https://www.cuhk.edu.hk/english/index.html",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_prof_james_cheng",
+      "label": "Prof. James Cheng (M.Sc. advisor)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": "https://www.cse.cuhk.edu.hk/~jcheng/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_bjtu",
+      "label": "BJTU (B.E.)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": "https://www.bjtu.edu.cn/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_prof_huaiyu_wan",
+      "label": "Prof. Huaiyu Wan (B.E. advisor)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": "https://faculty.bjtu.edu.cn/8793/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_pku_dcai_internship",
+      "label": "PKU DCAI group research internship",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": "https://www.pku.edu.cn/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_prof_wentao_zhang",
+      "label": "Prof. Wentao Zhang (PKU internship advisor)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": "https://zwt233.github.io/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_research_past_rag_kg_recommendations",
+      "label": "Past research: RAG, Knowledge Graphs, Recommendations",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L103",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_research_current_agent_post_training",
+      "label": "Current research: Agent Post-Training",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L106",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_research_current_llm_memory",
+      "label": "Current research: LLM Memory",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L106",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_deeprefine_skill",
+      "label": "DeepRefine Skill (/deeprefine agent CLI)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L173-L177",
+      "source_url": "https://github.com/HKUST-KnowComp/DeepRefine-Skill",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_hirag_system",
+      "label": "HiRAG GraphRAG system",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L183-L187",
+      "source_url": "https://github.com/hhy-huang/HiRAG",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_concept_graphrag",
+      "label": "GraphRAG",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L183-L296",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_paper_atlas_kv",
+      "label": "AtlasKV: Billion-Scale KG in 20GB VRAM",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L248-L262",
+      "source_url": "https://arxiv.org/abs/2510.17934",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_paper_deeprefine",
+      "label": "DeepRefine: Agentic Knowledge Refinement via RL",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L229-L243",
+      "source_url": "https://arxiv.org/abs/2605.10488",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_paper_hirag_emnlp2025",
+      "label": "Retrieval-Augmented Generation with Hierarchical Knowledge (EMNLP 2025)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L287-L300",
+      "source_url": "https://arxiv.org/abs/2503.10150",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_paper_in_parameter_memory",
+      "label": "Towards In-Parameter Memory Augmentation for LLMs",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L209-L223",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_bootstrap_layout_stack",
+      "label": "Bootstrap responsive grid layout",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L62-L90",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_clustrmaps_visitor_widget",
+      "label": "ClustrMaps visitor map embed",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L710",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_kasma_ai_internship",
+      "label": "Kasma.ai research internship",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": "L603-L610",
+      "source_url": "https://kasma.ai/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html_github_pages_site",
+      "label": "GitHub Pages personal site (hhy-huang.github.io)",
+      "file_type": "document",
+      "source_file": "index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_personal_academic_homepage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_hkust_cse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_prof_yangqiu_song",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_microsoft_research_asia",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L100-L101",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_cuhk",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_prof_james_cheng",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_bjtu",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_prof_huaiyu_wan",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_pku_dcai_internship",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_prof_wentao_zhang",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_research_past_rag_kg_recommendations",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_research_current_agent_post_training",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_research_current_llm_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_research_current_agent_post_training",
+      "target": "index_html_research_current_llm_memory",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "index.html",
+      "source_location": "L106",
+      "weight": 0.75
+    },
+    {
+      "source": "index_html_research_past_rag_kg_recommendations",
+      "target": "index_html_concept_graphrag",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "index.html",
+      "source_location": "L103-L296",
+      "weight": 0.8
+    },
+    {
+      "source": "index_html_hirag_system",
+      "target": "index_html_concept_graphrag",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_paper_hirag_emnlp2025",
+      "target": "index_html_hirag_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_paper_hirag_emnlp2025",
+      "target": "index_html_concept_graphrag",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L296",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_paper_deeprefine",
+      "target": "index_html_deeprefine_skill",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "index.html",
+      "source_location": "L173-L243",
+      "weight": 0.85
+    },
+    {
+      "source": "index_html_paper_atlas_kv",
+      "target": "index_html_research_current_llm_memory",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_paper_in_parameter_memory",
+      "target": "index_html_research_current_llm_memory",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_bootstrap_layout_stack",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "index.html",
+      "source_location": "L62-L90",
+      "weight": 0.7
+    },
+    {
+      "source": "index_html_bootstrap_layout_stack",
+      "target": "index_html_personal_academic_homepage",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "index.html",
+      "source_location": "L11-L12",
+      "weight": 0.75
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_clustrmaps_visitor_widget",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L710",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_haoyu_huang",
+      "target": "index_html_kasma_ai_internship",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L603-L610",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_github_pages_site",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "index.html",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "readme_md_empty_readme",
+      "target": "index_html_personal_academic_homepage",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "index_html_deeprefine_skill",
+      "target": "index_html_research_current_agent_post_training",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "index.html",
+      "source_location": "L173",
+      "weight": 0.8
+    },
+    {
+      "source": "index_html_prof_yangqiu_song",
+      "target": "index_html_paper_atlas_kv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_paper_atlas_kv",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L248-L262",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_paper_deeprefine",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L229-L243",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_paper_hirag_emnlp2025",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L287-L300",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_deeprefine_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L173-L177",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_personal_academic_homepage",
+      "target": "index_html_hirag_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L183-L187",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html_bootstrap_layout_stack",
+      "target": "index_html_personal_academic_homepage",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "index.html",
+      "source_location": "L39-L60",
+      "weight": 0.72
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "index_html_open_source_projects_cluster",
+      "label": "Open-Source Projects section",
+      "nodes": [
+        "index_html_deeprefine_skill",
+        "index_html_hirag_system"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html"
+    },
+    {
+      "id": "index_html_current_research_theme",
+      "label": "Current research focus theme",
+      "nodes": [
+        "index_html_research_current_agent_post_training",
+        "index_html_research_current_llm_memory",
+        "index_html_paper_in_parameter_memory",
+        "index_html_paper_atlas_kv"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "index.html"
+    },
+    {
+      "id": "index_html_education_timeline",
+      "label": "Education trajectory BJTU → CUHK → HKUST",
+      "nodes": [
+        "index_html_bjtu",
+        "index_html_cuhk",
+        "index_html_hkust_cse"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html"
+    },
+    {
+      "id": "index_html_internship_cluster",
+      "label": "Listed research internships",
+      "nodes": [
+        "index_html_microsoft_research_asia",
+        "index_html_kasma_ai_internship",
+        "index_html_pku_dcai_internship"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html"
+    }
+  ],
+  "input_tokens": 18500,
+  "output_tokens": 4200
+}

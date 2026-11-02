@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "kling_ai_icon_kling_ai",
+      "label": "Kling AI (可灵)",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_logo_mark",
+      "label": "Kling AI Logo Mark",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_central_slanted_oval",
+      "label": "Central Slanted Oval",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_symmetrical_wing_curves",
+      "label": "Symmetrical Curved Wing Elements",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_circular_frame",
+      "label": "Implied Circular Boundary Frame",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_white_on_black_line_art",
+      "label": "White-on-Black Line Art (#FFFFFF / #000000)",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_lens_shutter_metaphor",
+      "label": "Lens / Shutter / Digital Eye Metaphor",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_rotational_symmetry",
+      "label": "180° Rotational Symmetry",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_stylized_k_letterform",
+      "label": "Stylized K-like Letterform (ambiguous)",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_site_project_icon",
+      "label": "Personal Site Project Icon Asset",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kling_ai_icon_video_generation_brand",
+      "label": "AI Video Generation Brand Identity",
+      "file_type": "image",
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_kling_ai",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_central_slanted_oval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_symmetrical_wing_curves",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_circular_frame",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_white_on_black_line_art",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_lens_shutter_metaphor",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_symmetrical_wing_curves",
+      "target": "kling_ai_icon_rotational_symmetry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_central_slanted_oval",
+      "target": "kling_ai_icon_symmetrical_wing_curves",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_logo_mark",
+      "target": "kling_ai_icon_stylized_k_letterform",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.25,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_kling_ai",
+      "target": "kling_ai_icon_video_generation_brand",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_lens_shutter_metaphor",
+      "target": "kling_ai_icon_video_generation_brand",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_site_project_icon",
+      "target": "kling_ai_icon_logo_mark",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_site_project_icon",
+      "target": "baichuan_ai_icon_site_project_icon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kling_ai_icon_white_on_black_line_art",
+      "target": "baichuan_ai_icon_minimalist_tech_identity",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "photos/kling_ai_icon.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "kling_ai_icon_geometric_logo_composition",
+      "label": "Geometric logo composition (oval core, wing arcs, circular frame)",
+      "nodes": [
+        "kling_ai_icon_logo_mark",
+        "kling_ai_icon_central_slanted_oval",
+        "kling_ai_icon_symmetrical_wing_curves",
+        "kling_ai_icon_circular_frame"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "photos/kling_ai_icon.png"
+    }
+  ],
+  "input_tokens": 1100,
+  "output_tokens": 920
+}

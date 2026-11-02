@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+      "label": "AutoSchemaKG App Icon",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_autoschemakg_wordmark",
+      "label": "AutoSchemaKG Wordmark",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_brain_graph_network",
+      "label": "Brain-Shaped Knowledge Graph Network",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_graph_nodes_and_edges",
+      "label": "Graph Nodes and Edges Motif",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_cyan_to_purple_gradient",
+      "label": "Cyan-to-Purple Color Gradient",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_central_gear",
+      "label": "Central Mechanical Gear",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_upward_blue_arrow",
+      "label": "Upward Blue Arrow Through Gear",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_knowledge_graph_concept",
+      "label": "Knowledge Graph (KG)",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_autonomous_schema_construction",
+      "label": "Autonomous Schema Construction",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_rounded_square_icon_frame",
+      "label": "Rounded Square Icon Frame",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "atlas_rag_icon_wo_background_atlas_rag_filename",
+      "label": "Atlas-RAG Filename (atlas-rag-icon)",
+      "file_type": "image",
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+      "target": "atlas_rag_icon_wo_background_rounded_square_icon_frame",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+      "target": "atlas_rag_icon_wo_background_brain_graph_network",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+      "target": "atlas_rag_icon_wo_background_autoschemakg_wordmark",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_brain_graph_network",
+      "target": "atlas_rag_icon_wo_background_graph_nodes_and_edges",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_brain_graph_network",
+      "target": "atlas_rag_icon_wo_background_cyan_to_purple_gradient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_brain_graph_network",
+      "target": "atlas_rag_icon_wo_background_central_gear",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_central_gear",
+      "target": "atlas_rag_icon_wo_background_upward_blue_arrow",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_wordmark",
+      "target": "atlas_rag_icon_wo_background_knowledge_graph_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_graph_nodes_and_edges",
+      "target": "atlas_rag_icon_wo_background_knowledge_graph_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_central_gear",
+      "target": "atlas_rag_icon_wo_background_autonomous_schema_construction",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_upward_blue_arrow",
+      "target": "atlas_rag_icon_wo_background_autonomous_schema_construction",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_wordmark",
+      "target": "atlas_rag_icon_wo_background_autonomous_schema_construction",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+      "target": "atlas_rag_icon_wo_background_knowledge_graph_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+      "target": "atlas_rag_icon_wo_background_atlas_rag_filename",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.25,
+      "source_file": "photos/atlas-rag-icon-wo-background.png",
+      "source_location": null,
+      "weight": 0.5
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "atlas_rag_icon_autoschemakg_brand_mark",
+      "label": "AutoSchemaKG Brand Mark Composition",
+      "nodes": [
+        "atlas_rag_icon_wo_background_autoschemakg_app_icon",
+        "atlas_rag_icon_wo_background_brain_graph_network",
+        "atlas_rag_icon_wo_background_autoschemakg_wordmark",
+        "atlas_rag_icon_wo_background_central_gear",
+        "atlas_rag_icon_wo_background_upward_blue_arrow"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/atlas-rag-icon-wo-background.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

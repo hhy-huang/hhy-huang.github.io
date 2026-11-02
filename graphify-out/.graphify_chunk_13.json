@@ -1,0 +1,473 @@
+{
+  "nodes": [
+    {
+      "id": "good3_personal_portrait_photo",
+      "label": "Personal portrait photograph (good3)",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_retail_boutique_interior",
+      "label": "Bright indoor retail boutique setting",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_muji_style_wood_shelving",
+      "label": "Minimalist light-wood display shelving (Muji-like aesthetic)",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_portrait_subject",
+      "label": "Young East Asian man (early 20s appearance)",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_over_shoulder_glance_pose",
+      "label": "Over-shoulder pose looking back at camera",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_neutral_direct_gaze",
+      "label": "Neutral serious expression with direct eye contact",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_rectangular_metal_glasses",
+      "label": "Thin gold or silver rectangular metal-frame glasses",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_voluminous_black_hair",
+      "label": "Thick voluminous black hair with textured side part",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_beige_open_button_shirt",
+      "label": "Light beige open button-down shirt layer",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_navy_blue_undershirt",
+      "label": "Dark navy blue crew-neck undershirt",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_backpack_shoulder_strap",
+      "label": "Black and blue backpack strap on right shoulder",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_tall_wood_storage_rack",
+      "label": "Tall wooden rack with white plastic storage bins",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_glass_jars_and_bottles",
+      "label": "Assorted small glass jars and bottles on shelf",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_neutral_minimal_color_palette",
+      "label": "Neutral palette of white, light wood, and beige tones",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_blurred_wall_instruction_sign",
+      "label": "Blurred white wall sign with diagram (text illegible)",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_asian_script_wall_sign",
+      "label": "Small square wall sign with East Asian characters",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "good3_homepage_profile_headshot_role",
+      "label": "Casual headshot suitable for academic personal homepage",
+      "file_type": "image",
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "good3_personal_portrait_photo",
+      "target": "good3_portrait_subject",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_personal_portrait_photo",
+      "target": "good3_retail_boutique_interior",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_personal_portrait_photo",
+      "target": "good3_over_shoulder_glance_pose",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_personal_portrait_photo",
+      "target": "good3_homepage_profile_headshot_role",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_portrait_subject",
+      "target": "good3_over_shoulder_glance_pose",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_portrait_subject",
+      "target": "good3_neutral_direct_gaze",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_portrait_subject",
+      "target": "good3_rectangular_metal_glasses",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_portrait_subject",
+      "target": "good3_voluminous_black_hair",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_portrait_subject",
+      "target": "good3_beige_open_button_shirt",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_beige_open_button_shirt",
+      "target": "good3_navy_blue_undershirt",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_portrait_subject",
+      "target": "good3_backpack_shoulder_strap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_retail_boutique_interior",
+      "target": "good3_muji_style_wood_shelving",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_retail_boutique_interior",
+      "target": "good3_neutral_minimal_color_palette",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_muji_style_wood_shelving",
+      "target": "good3_tall_wood_storage_rack",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_muji_style_wood_shelving",
+      "target": "good3_glass_jars_and_bottles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_tall_wood_storage_rack",
+      "target": "good3_glass_jars_and_bottles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_retail_boutique_interior",
+      "target": "good3_blurred_wall_instruction_sign",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_retail_boutique_interior",
+      "target": "good3_asian_script_wall_sign",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_blurred_wall_instruction_sign",
+      "target": "good3_asian_script_wall_sign",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_asian_script_wall_sign",
+      "target": "good3_retail_boutique_interior",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.25,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_personal_portrait_photo",
+      "target": "index_html_haoyu_huang",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.68,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_homepage_profile_headshot_role",
+      "target": "index_html_personal_academic_homepage",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "good3_neutral_minimal_color_palette",
+      "target": "good3_beige_open_button_shirt",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/good3.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "good3_subject_appearance_elements",
+      "label": "Portrait subject appearance and accessories",
+      "nodes": [
+        "good3_portrait_subject",
+        "good3_rectangular_metal_glasses",
+        "good3_voluminous_black_hair",
+        "good3_beige_open_button_shirt",
+        "good3_navy_blue_undershirt",
+        "good3_backpack_shoulder_strap"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/good3.jpg"
+    },
+    {
+      "id": "good3_retail_display_background",
+      "label": "Retail display background fixtures",
+      "nodes": [
+        "good3_retail_boutique_interior",
+        "good3_muji_style_wood_shelving",
+        "good3_tall_wood_storage_rack",
+        "good3_glass_jars_and_bottles",
+        "good3_blurred_wall_instruction_sign"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "photos/good3.jpg"
+    },
+    {
+      "id": "good3_portrait_composition",
+      "label": "Portrait composition and framing",
+      "nodes": [
+        "good3_personal_portrait_photo",
+        "good3_over_shoulder_glance_pose",
+        "good3_neutral_direct_gaze",
+        "good3_portrait_subject",
+        "good3_neutral_minimal_color_palette"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "photos/good3.jpg"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

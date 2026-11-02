@@ -1,0 +1,536 @@
+{
+  "nodes": [
+    {
+      "id": "hirag_ds_trans_drawio_hiretrieval_framework",
+      "label": "HiRetrieval + HiIndex Hierarchical Graph-RAG Framework",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "full diagram",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_hiindex",
+      "label": "HiIndex: Indexing with Hierarchical Knowledge",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "top section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_hiretrieval",
+      "label": "HiRetrieval: Retrieval with Hierarchical Knowledge",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "bottom section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_documents_input",
+      "label": "Documents (corpus input)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex left",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_normal_entities",
+      "label": "Normal Entities (base KG layer)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex bottom graph layer, gray nodes",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_summary_entities",
+      "label": "Summary Entities (mid hierarchy layer)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex middle layer, purple nodes",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_meta_summary_entities",
+      "label": "Meta Summary Entities (top hierarchy layer)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex top layer, blue nodes",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_gmm_clustering",
+      "label": "GMM Clustering",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex process block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_summarization_by_llm",
+      "label": "Summarization by LLM",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex process block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_hierarchical_layers_detail",
+      "label": "Layer[i-1] / Layer[i] / Layer[i+1] aggregation view",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiIndex right callout",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_query_input",
+      "label": "User Query",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval left",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_global_retrieval",
+      "label": "Global retrieval (Communities)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval top tier, tan community ovals",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_bridge_retrieval",
+      "label": "Bridge retrieval (Key Entity Reasoning Paths)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval middle tier, dashed boundary paths",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_local_retrieval",
+      "label": "Local retrieval (Flatten KG)",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval bottom tier",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_community_report",
+      "label": "Community Report",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval output from global tier",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_reasoning_paths",
+      "label": "Reasoning Paths",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval output from bridge tier",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_key_entity_descriptions",
+      "label": "Key Entity Descriptions",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval output from local tier",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_generation_by_llm",
+      "label": "Generation by LLM",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval final block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_ds_trans_drawio_final_answer",
+      "label": "Final RAG Answer",
+      "file_type": "image",
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "HiRetrieval output arrow",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hirag_ds_trans_drawio_hiindex",
+      "target": "hirag_ds_trans_drawio_hiretrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "indexed graph feeds retrieval",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_hiretrieval_framework",
+      "target": "hirag_ds_trans_drawio_hiindex",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_hiretrieval_framework",
+      "target": "hirag_ds_trans_drawio_hiretrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_documents_input",
+      "target": "hirag_ds_trans_drawio_normal_entities",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "indexing pipeline entry",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_normal_entities",
+      "target": "hirag_ds_trans_drawio_gmm_clustering",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_gmm_clustering",
+      "target": "hirag_ds_trans_drawio_summarization_by_llm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_summarization_by_llm",
+      "target": "hirag_ds_trans_drawio_summary_entities",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "creates mid-layer summaries",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_summarization_by_llm",
+      "target": "hirag_ds_trans_drawio_meta_summary_entities",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "creates top-layer meta summaries",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_normal_entities",
+      "target": "hirag_ds_trans_drawio_summary_entities",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "dotted hierarchical links between layers",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_summary_entities",
+      "target": "hirag_ds_trans_drawio_meta_summary_entities",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "repeatable x n times annotation",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_hierarchical_layers_detail",
+      "target": "hirag_ds_trans_drawio_summary_entities",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "callout explains layer-wise clustering",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_meta_summary_entities",
+      "target": "hirag_ds_trans_drawio_global_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "indexed hierarchy used at retrieval",
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_ds_trans_drawio_normal_entities",
+      "target": "hirag_ds_trans_drawio_local_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "flatten KG at local tier",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_query_input",
+      "target": "hirag_ds_trans_drawio_global_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_query_input",
+      "target": "hirag_ds_trans_drawio_bridge_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_query_input",
+      "target": "hirag_ds_trans_drawio_local_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_global_retrieval",
+      "target": "hirag_ds_trans_drawio_community_report",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_bridge_retrieval",
+      "target": "hirag_ds_trans_drawio_reasoning_paths",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_local_retrieval",
+      "target": "hirag_ds_trans_drawio_key_entity_descriptions",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_community_report",
+      "target": "hirag_ds_trans_drawio_generation_by_llm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_reasoning_paths",
+      "target": "hirag_ds_trans_drawio_generation_by_llm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_key_entity_descriptions",
+      "target": "hirag_ds_trans_drawio_generation_by_llm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_generation_by_llm",
+      "target": "hirag_ds_trans_drawio_final_answer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_ds_trans_drawio_hiretrieval_framework",
+      "target": "index_html_hirag_system",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 0.92
+    },
+    {
+      "source": "hirag_ds_trans_drawio_hiretrieval_framework",
+      "target": "index_html_concept_graphrag",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": null,
+      "weight": 0.88
+    },
+    {
+      "source": "hirag_ds_trans_drawio_summarization_by_llm",
+      "target": "hirag_ds_trans_drawio_generation_by_llm",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "both LLM stages in index vs generate pipeline",
+      "weight": 0.72
+    },
+    {
+      "source": "hirag_ds_trans_drawio_gmm_clustering",
+      "target": "hirag_ds_trans_drawio_global_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "photos/hirag_ds_trans.drawio.png",
+      "source_location": "clustering at index time aligns with community-level retrieval",
+      "weight": 0.78
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hirag_ds_trans_drawio_hiindex_pipeline",
+      "label": "HiIndex document-to-hierarchy pipeline",
+      "nodes": [
+        "hirag_ds_trans_drawio_documents_input",
+        "hirag_ds_trans_drawio_gmm_clustering",
+        "hirag_ds_trans_drawio_summarization_by_llm",
+        "hirag_ds_trans_drawio_normal_entities",
+        "hirag_ds_trans_drawio_summary_entities",
+        "hirag_ds_trans_drawio_meta_summary_entities"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png"
+    },
+    {
+      "id": "hirag_ds_trans_drawio_three_tier_retrieval",
+      "label": "Global–Bridge–Local retrieval fusion",
+      "nodes": [
+        "hirag_ds_trans_drawio_global_retrieval",
+        "hirag_ds_trans_drawio_bridge_retrieval",
+        "hirag_ds_trans_drawio_local_retrieval",
+        "hirag_ds_trans_drawio_community_report",
+        "hirag_ds_trans_drawio_reasoning_paths",
+        "hirag_ds_trans_drawio_key_entity_descriptions"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png"
+    },
+    {
+      "id": "hirag_ds_trans_drawio_rag_generation_context",
+      "label": "Multi-source context for final LLM generation",
+      "nodes": [
+        "hirag_ds_trans_drawio_community_report",
+        "hirag_ds_trans_drawio_reasoning_paths",
+        "hirag_ds_trans_drawio_key_entity_descriptions",
+        "hirag_ds_trans_drawio_generation_by_llm",
+        "hirag_ds_trans_drawio_final_answer"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_ds_trans.drawio.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

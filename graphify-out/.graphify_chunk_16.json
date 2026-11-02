@@ -1,0 +1,442 @@
+{
+  "nodes": [
+    {
+      "id": "graphjudger_new_graphjudger_pipeline",
+      "label": "GraphJudger Three-Stage KG Pipeline",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "full diagram",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_raw_text_d",
+      "label": "Raw Text (D)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "left input",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_ground_truth_kg_g",
+      "label": "Ground Truth KG (G)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "left input",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_stage_a_denoising",
+      "label": "Stage (a): Entity-Centric Iterative Text Denoising",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "top middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_denoising_llm",
+      "label": "LLM for Text Denoising (GPT-class)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (a) OpenAI logo",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_refined_text_d_star",
+      "label": "Refined Text (D*)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (a) output",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_draft_kg_g_star",
+      "label": "Draft KG (G*)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (a) and (c) input",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_stage_b_sft",
+      "label": "Stage (b): Knowledge Aware Supervised Fine-Tuning",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "top right",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_training_data_t_train",
+      "label": "Training Data (T_train)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (b) triplet labels",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_llama_judge_model",
+      "label": "LLaMA Graph Judge Model",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stages (b) and (c)",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_triplet_validity_task",
+      "label": "Triplet Validity Question (Is this true?)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (b) task",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_stage_c_judgement",
+      "label": "Stage (c): Graph Judgement",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "bottom",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_edge_filtering",
+      "label": "Edge Filtering Block",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (c) filtering",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_predicted_kg_g_hat",
+      "label": "Predicted KG (G_hat)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (c) output",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_hallucinated_triplet_rejection",
+      "label": "Hallucinated Triplet Rejection (red X edges)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stages (b) and (c) annotations",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphjudger_new_valid_triplet_acceptance",
+      "label": "Valid Triplet Acceptance (green check edges)",
+      "file_type": "image",
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stages (b) and (c) annotations",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "graphjudger_new_graphjudger_pipeline",
+      "target": "graphjudger_new_stage_a_denoising",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "pipeline structure",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_graphjudger_pipeline",
+      "target": "graphjudger_new_stage_b_sft",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "pipeline structure",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_graphjudger_pipeline",
+      "target": "graphjudger_new_stage_c_judgement",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "pipeline structure",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_raw_text_d",
+      "target": "graphjudger_new_stage_a_denoising",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "arrow raw text to stage (a)",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_raw_text_d",
+      "target": "graphjudger_new_ground_truth_kg_g",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "dashed bidirectional link",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_stage_a_denoising",
+      "target": "graphjudger_new_denoising_llm",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (a) internal",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_denoising_llm",
+      "target": "graphjudger_new_refined_text_d_star",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (a) output arrow",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_refined_text_d_star",
+      "target": "graphjudger_new_draft_kg_g_star",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "co-generated outputs in stage (a)",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_ground_truth_kg_g",
+      "target": "graphjudger_new_training_data_t_train",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (b) training construction",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_raw_text_d",
+      "target": "graphjudger_new_training_data_t_train",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (b) training construction",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_training_data_t_train",
+      "target": "graphjudger_new_llama_judge_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "fine-tuning arrow",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_stage_b_sft",
+      "target": "graphjudger_new_triplet_validity_task",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (b) task label",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_triplet_validity_task",
+      "target": "graphjudger_new_llama_judge_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "SFT objective",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_draft_kg_g_star",
+      "target": "graphjudger_new_stage_c_judgement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "stage (c) input",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_llama_judge_model",
+      "target": "graphjudger_new_stage_c_judgement",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "frozen inference in stage (c)",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_stage_c_judgement",
+      "target": "graphjudger_new_edge_filtering",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "filtering block",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_edge_filtering",
+      "target": "graphjudger_new_predicted_kg_g_hat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "final output arrow",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_llama_judge_model",
+      "target": "graphjudger_new_valid_triplet_acceptance",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "green accepted edges",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_llama_judge_model",
+      "target": "graphjudger_new_hallucinated_triplet_rejection",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "red rejected edges",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_hallucinated_triplet_rejection",
+      "target": "graphjudger_new_edge_filtering",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "filtering removes rejected triplets",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_draft_kg_g_star",
+      "target": "graphjudger_new_predicted_kg_g_hat",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "draft refined to predicted KG",
+      "weight": 1.0
+    },
+    {
+      "source": "graphjudger_new_ground_truth_kg_g",
+      "target": "graphjudger_new_predicted_kg_g_hat",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "supervision target vs final output",
+      "weight": 0.8
+    },
+    {
+      "source": "graphjudger_new_denoising_llm",
+      "target": "graphjudger_new_llama_judge_model",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "photos/graphjudger_new.png",
+      "source_location": "both LLM stages in one pipeline",
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "graphjudger_new_graphjudger_stages",
+      "label": "GraphJudger end-to-end stages (a)(b)(c)",
+      "nodes": [
+        "graphjudger_new_stage_a_denoising",
+        "graphjudger_new_stage_b_sft",
+        "graphjudger_new_stage_c_judgement"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/graphjudger_new.png"
+    },
+    {
+      "id": "graphjudger_new_kg_representations",
+      "label": "KG notation chain G, G*, G_hat",
+      "nodes": [
+        "graphjudger_new_ground_truth_kg_g",
+        "graphjudger_new_draft_kg_g_star",
+        "graphjudger_new_predicted_kg_g_hat"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "photos/graphjudger_new.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

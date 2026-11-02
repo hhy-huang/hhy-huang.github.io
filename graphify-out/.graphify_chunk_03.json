@@ -1,0 +1,440 @@
+{
+  "nodes": [
+    {
+      "id": "glyphicons_halflingsregular_glyphicons_halflings_svg_font",
+      "label": "Glyphicons Halflings SVG Webfont (Bootstrap 3 icon font source)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "1:288",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_svg_font_container",
+      "label": "SVG 1.1 document wrapping embedded font definitions",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "3:288",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_font_glyphicons_halflingsregular",
+      "label": "Font element id glyphicons_halflingsregular",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "6:287",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_font_face_metrics",
+      "label": "Font metrics units-per-em 1200 ascent 960 descent -240",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "7:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_icon_set",
+      "label": "278 vector glyph paths for Halflings UI icons",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "9:286",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_private_use_area_icons",
+      "label": "Private-use unicode block e001–e260 icon mappings",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "38:284",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_glass",
+      "label": "Icon glyph glass (unicode e001)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "38:38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_search",
+      "label": "Icon glyph search (unicode e003)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "40:40",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_envelope",
+      "label": "Icon glyph envelope mail (unicode U+2709)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "36:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_home",
+      "label": "Icon glyph home (unicode e021)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "56:56",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_cog",
+      "label": "Icon glyph settings cog (unicode e019)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "55:55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_user",
+      "label": "Icon glyph user (unicode e008)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "44:44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_ok",
+      "label": "Icon glyph ok check (unicode e013)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "49:49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_glyph_remove",
+      "label": "Icon glyph remove close (unicode e014)",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "50:50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_currency_symbols",
+      "label": "Currency and math symbol glyphs euro yen ruble plus minus",
+      "file_type": "image",
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "12:31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_bootstrap_css_font_face",
+      "label": "Bootstrap CSS @font-face Glyphicons Halflings",
+      "file_type": "document",
+      "source_file": "css/bootstrap.min.css",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "glyphicons_halflingsregular_bootstrap3_icon_system",
+      "label": "Bootstrap 3 glyphicon component system",
+      "file_type": "document",
+      "source_file": "css/bootstrap.min.css",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "glyphicons_halflingsregular_svg_font_container",
+      "target": "glyphicons_halflingsregular_font_glyphicons_halflingsregular",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "5:287",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_glyphicons_halflings_svg_font",
+      "target": "glyphicons_halflingsregular_svg_font_container",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "1:288",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_font_glyphicons_halflingsregular",
+      "target": "glyphicons_halflingsregular_font_face_metrics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "7:7",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_font_glyphicons_halflingsregular",
+      "target": "glyphicons_halflingsregular_glyph_icon_set",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "9:286",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_glyph_icon_set",
+      "target": "glyphicons_halflingsregular_private_use_area_icons",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "38:284",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_glass",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "38:38",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "40:40",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_home",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "56:56",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_cog",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "55:55",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_user",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "44:44",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_ok",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "49:49",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_private_use_area_icons",
+      "target": "glyphicons_halflingsregular_glyph_remove",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "50:50",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_glyph_icon_set",
+      "target": "glyphicons_halflingsregular_glyph_envelope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "36:36",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_glyph_icon_set",
+      "target": "glyphicons_halflingsregular_currency_symbols",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "12:31",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_bootstrap_css_font_face",
+      "target": "glyphicons_halflingsregular_glyphicons_halflings_svg_font",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "css/bootstrap.min.css",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_bootstrap_css_font_face",
+      "target": "glyphicons_halflingsregular_font_glyphicons_halflingsregular",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "css/bootstrap.min.css",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_bootstrap3_icon_system",
+      "target": "glyphicons_halflingsregular_bootstrap_css_font_face",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "css/bootstrap.min.css",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_bootstrap3_icon_system",
+      "target": "glyphicons_halflingsregular_private_use_area_icons",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_glyph_ok",
+      "target": "glyphicons_halflingsregular_glyph_remove",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": "49:50",
+      "weight": 1.0
+    },
+    {
+      "source": "glyphicons_halflingsregular_glyph_glass",
+      "target": "glyphicons_halflingsregular_glyph_search",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "fonts/glyphicons-halflings-regular.svg",
+      "source_location": null,
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "halflings_svg_font_structure",
+      "label": "SVG embedded font structure defs font font-face glyphs",
+      "nodes": [
+        "glyphicons_halflingsregular_svg_font_container",
+        "glyphicons_halflingsregular_font_glyphicons_halflingsregular",
+        "glyphicons_halflingsregular_font_face_metrics",
+        "glyphicons_halflingsregular_glyph_icon_set"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "id": "bootstrap_halflings_ui_icons",
+      "label": "Representative Bootstrap Halflings navigation and action icons",
+      "nodes": [
+        "glyphicons_halflingsregular_glyph_home",
+        "glyphicons_halflingsregular_glyph_search",
+        "glyphicons_halflingsregular_glyph_user",
+        "glyphicons_halflingsregular_glyph_cog",
+        "glyphicons_halflingsregular_glyph_ok",
+        "glyphicons_halflingsregular_glyph_remove"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "id": "bootstrap_font_delivery_stack",
+      "label": "Bootstrap site loads Halflings via CSS font-face pointing at fonts directory",
+      "nodes": [
+        "glyphicons_halflingsregular_bootstrap3_icon_system",
+        "glyphicons_halflingsregular_bootstrap_css_font_face",
+        "glyphicons_halflingsregular_glyphicons_halflings_svg_font"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "css/bootstrap.min.css"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

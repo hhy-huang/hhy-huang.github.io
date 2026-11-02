@@ -1,0 +1,556 @@
+{
+  "nodes": [
+    {
+      "id": "apollo_car_apollo_autonomous_vehicle",
+      "label": "Apollo Autonomous Vehicle (3D Model)",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_baidu_apollo_platform",
+      "label": "Baidu Apollo Open Autonomous Driving Platform",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_vr_simulation_scene",
+      "label": "VR / Simulation Environment Scene",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_hmd_hand_controls_ui",
+      "label": "HMD Rotation and Hand Control UI Overlay",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_switch_sdk_setup_button",
+      "label": "Switch SDK Setup Control",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_white_deck_platform",
+      "label": "White Upper Deck Platform",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_dark_gray_chassis_base",
+      "label": "Dark Gray Lower Chassis with Apollo Branding",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_black_roll_cage_frame",
+      "label": "Black Open Roll Cage Frame",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_four_solid_wheels",
+      "label": "Four Large Solid Black Drive Wheels",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_purple_vertical_sensor_mast",
+      "label": "Purple Vertical Central Sensor Mast",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_overhead_cylindrical_sensor",
+      "label": "Overhead Blue-White Cylindrical Sensor Unit",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_white_dome_lidar_pair",
+      "label": "Pair of White Dome LiDAR or GPS Antennas",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_purple_corner_disc_sensors",
+      "label": "Purple Disc Sensors on Cage Top Corners",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_black_onboard_compute_box",
+      "label": "Large Black Onboard Compute or Power Enclosure",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_gray_deck_modules",
+      "label": "Gray Rectangular Modules on Deck",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_orange_front_rear_bumpers",
+      "label": "Orange Elongated Front and Rear Bumpers",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_detached_white_side_panel",
+      "label": "Detached Angled White Side Panel",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_floor_white_cylinder_part",
+      "label": "White Segmented Cylinder Part on Floor",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_green_stalk_camera_line",
+      "label": "Four Green-Stalk Cameras Lined on Floor",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_floor_gray_accessory_box",
+      "label": "Small Gray Box Beside Camera Line",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_duplicate_vehicle_partial",
+      "label": "Partial Second Identical Apollo Vehicle",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "apollo_car_modular_assembly_workflow",
+      "label": "Modular Kit Assembly / SDK Setup Workflow",
+      "file_type": "image",
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "apollo_car_apollo_autonomous_vehicle",
+      "target": "apollo_car_baidu_apollo_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_apollo_autonomous_vehicle",
+      "target": "apollo_car_vr_simulation_scene",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_vr_simulation_scene",
+      "target": "apollo_car_hmd_hand_controls_ui",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_vr_simulation_scene",
+      "target": "apollo_car_switch_sdk_setup_button",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_switch_sdk_setup_button",
+      "target": "apollo_car_modular_assembly_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_apollo_autonomous_vehicle",
+      "target": "apollo_car_white_deck_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_apollo_autonomous_vehicle",
+      "target": "apollo_car_dark_gray_chassis_base",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_dark_gray_chassis_base",
+      "target": "apollo_car_baidu_apollo_platform",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_apollo_autonomous_vehicle",
+      "target": "apollo_car_black_roll_cage_frame",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_apollo_autonomous_vehicle",
+      "target": "apollo_car_four_solid_wheels",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_black_roll_cage_frame",
+      "target": "apollo_car_purple_vertical_sensor_mast",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_purple_vertical_sensor_mast",
+      "target": "apollo_car_overhead_cylindrical_sensor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_purple_vertical_sensor_mast",
+      "target": "apollo_car_white_dome_lidar_pair",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_black_roll_cage_frame",
+      "target": "apollo_car_purple_corner_disc_sensors",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_white_deck_platform",
+      "target": "apollo_car_black_onboard_compute_box",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_white_deck_platform",
+      "target": "apollo_car_gray_deck_modules",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_black_onboard_compute_box",
+      "target": "apollo_car_white_dome_lidar_pair",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_black_onboard_compute_box",
+      "target": "apollo_car_green_stalk_camera_line",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_orange_front_rear_bumpers",
+      "target": "apollo_car_apollo_autonomous_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_detached_white_side_panel",
+      "target": "apollo_car_modular_assembly_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_floor_white_cylinder_part",
+      "target": "apollo_car_modular_assembly_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_green_stalk_camera_line",
+      "target": "apollo_car_modular_assembly_workflow",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_floor_gray_accessory_box",
+      "target": "apollo_car_green_stalk_camera_line",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_duplicate_vehicle_partial",
+      "target": "apollo_car_apollo_autonomous_vehicle",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_white_dome_lidar_pair",
+      "target": "apollo_car_overhead_cylindrical_sensor",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "apollo_car_purple_corner_disc_sensors",
+      "target": "apollo_car_white_dome_lidar_pair",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "photos/apollo_car.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "apollo_car_autonomous_sensing_stack",
+      "label": "Autonomous Sensing and Perception Stack",
+      "nodes": [
+        "apollo_car_white_dome_lidar_pair",
+        "apollo_car_purple_vertical_sensor_mast",
+        "apollo_car_overhead_cylindrical_sensor",
+        "apollo_car_green_stalk_camera_line",
+        "apollo_car_black_onboard_compute_box"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "photos/apollo_car.jpg"
+    },
+    {
+      "id": "apollo_car_chassis_structural_assembly",
+      "label": "Chassis and Structural Assembly",
+      "nodes": [
+        "apollo_car_dark_gray_chassis_base",
+        "apollo_car_white_deck_platform",
+        "apollo_car_black_roll_cage_frame",
+        "apollo_car_four_solid_wheels"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/apollo_car.jpg"
+    },
+    {
+      "id": "apollo_car_detached_kit_components",
+      "label": "Detached Kit Components for Assembly",
+      "nodes": [
+        "apollo_car_orange_front_rear_bumpers",
+        "apollo_car_detached_white_side_panel",
+        "apollo_car_floor_white_cylinder_part",
+        "apollo_car_green_stalk_camera_line",
+        "apollo_car_floor_gray_accessory_box"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "photos/apollo_car.jpg"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

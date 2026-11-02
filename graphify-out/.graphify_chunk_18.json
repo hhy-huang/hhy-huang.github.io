@@ -1,0 +1,390 @@
+{
+  "nodes": [
+    {
+      "id": "hirag_icon_project_mascot_logo",
+      "label": "HiRAG Project Mascot Logo",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_llama_mascot",
+      "label": "Llama Mascot Character",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "center, orange and cream fluffy fur",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_nerd_glasses",
+      "label": "Thick-Rim Nerd Glasses",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "on llama face, black frames",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_hi_speech_bubble",
+      "label": "Hi Speech Bubble",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "left of llama head, white circle, orange Hi text",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_book_stack",
+      "label": "Stack of Books",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "llama perched atop alternating orange and blue spines",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_server_rack_structure",
+      "label": "Stylized Server Rack / Computer Tower",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "background, geometric blue 3D structure behind books",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_chat_code_bubble",
+      "label": "Chat or Code Message Bubble",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "floating right of llama, small blue rectangle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_hexagonal_base",
+      "label": "Hexagonal Blue Base Frame",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "bottom, diamond-like blue platform enclosing composition",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_orange_blue_palette",
+      "label": "Orange and Blue Dual-Tone Palette",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "books, llama, accents vs teal navy sky blue structure",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_black_background",
+      "label": "Solid Black Background",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "full canvas",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_knowledge_literacy_metaphor",
+      "label": "Knowledge and Literacy (Books)",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "stacked volumes under mascot",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_graphrag_infrastructure_metaphor",
+      "label": "GraphRAG Infrastructure (Server Rack)",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "computational backbone behind knowledge stack",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon_friendly_ai_assistant_branding",
+      "label": "Friendly AI Assistant Branding",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "Hi greeting, approachable llama with glasses",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hirag_icon_llama_mascot",
+      "target": "hirag_icon_nerd_glasses",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "glasses worn on mascot face",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_llama_mascot",
+      "target": "hirag_icon_hi_speech_bubble",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "bubble adjacent to llama head",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_llama_mascot",
+      "target": "hirag_icon_book_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "llama perched on book stack",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_book_stack",
+      "target": "hirag_icon_server_rack_structure",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "books in front of blue server-like structure",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_llama_mascot",
+      "target": "hirag_icon_chat_code_bubble",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "message bubble near mascot",
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon_hexagonal_base",
+      "target": "hirag_icon_project_mascot_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "base frame contains full icon",
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon_knowledge_literacy_metaphor",
+      "target": "hirag_icon_book_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_graphrag_infrastructure_metaphor",
+      "target": "hirag_icon_server_rack_structure",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "server rack evokes indexed retrieval backend",
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon_friendly_ai_assistant_branding",
+      "target": "hirag_icon_hi_speech_bubble",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "Hi text signals approachable assistant",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_friendly_ai_assistant_branding",
+      "target": "hirag_icon_llama_mascot",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "cheerful mascot expression",
+      "weight": 0.95
+    },
+    {
+      "source": "hirag_icon_friendly_ai_assistant_branding",
+      "target": "hirag_icon_nerd_glasses",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "scholarly nerd aesthetic",
+      "weight": 0.8
+    },
+    {
+      "source": "hirag_icon_graphrag_infrastructure_metaphor",
+      "target": "hirag_icon_knowledge_literacy_metaphor",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.84,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "books layered in front of compute structure",
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon_chat_code_bubble",
+      "target": "hirag_icon_friendly_ai_assistant_branding",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "dialogue UI motif beside mascot",
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon_orange_blue_palette",
+      "target": "hirag_icon_project_mascot_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "dominant brand colors across icon",
+      "weight": 0.8
+    },
+    {
+      "source": "hirag_icon_black_background",
+      "target": "hirag_icon_project_mascot_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "hirag_icon_llama_mascot",
+      "target": "hirag_icon_project_mascot_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_book_stack",
+      "target": "hirag_icon_project_mascot_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon_server_rack_structure",
+      "target": "hirag_icon_project_mascot_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "hirag_icon_friendly_ai_assistant_branding",
+      "target": "hirag_icon_graphrag_infrastructure_metaphor",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.68,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "both encode HiRAG as approachable system over structured knowledge",
+      "weight": 0.75
+    },
+    {
+      "source": "hirag_icon_project_mascot_logo",
+      "target": "index_html_hirag_system",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.86,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "filename and visual branding align with HiRAG GraphRAG project on homepage",
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon_graphrag_infrastructure_metaphor",
+      "target": "index_html_concept_graphrag",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "photos/hirag_icon.jpg",
+      "source_location": "server and knowledge stack iconography matches GraphRAG theme",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hirag_icon_mascot_logo_composition",
+      "label": "HiRAG Mascot Logo Composition",
+      "nodes": [
+        "hirag_icon_llama_mascot",
+        "hirag_icon_book_stack",
+        "hirag_icon_server_rack_structure",
+        "hirag_icon_hi_speech_bubble"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "photos/hirag_icon.jpg"
+    },
+    {
+      "id": "hirag_icon_graphrag_brand_semantics",
+      "label": "GraphRAG Brand Semantics Layer",
+      "nodes": [
+        "hirag_icon_knowledge_literacy_metaphor",
+        "hirag_icon_graphrag_infrastructure_metaphor",
+        "hirag_icon_friendly_ai_assistant_branding"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "photos/hirag_icon.jpg"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

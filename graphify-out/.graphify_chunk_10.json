@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "favicon_site_favicon",
+      "label": "Site Favicon (64×64 SVG)",
+      "file_type": "image",
+      "source_file": "photos/favicon.svg",
+      "source_location": "lines 1-5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "favicon_rounded_square_background",
+      "label": "Rounded Square Background",
+      "file_type": "image",
+      "source_file": "photos/favicon.svg",
+      "source_location": "path line 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "favicon_brand_blue_2e3092",
+      "label": "Brand Blue Fill #2E3092",
+      "file_type": "image",
+      "source_file": "photos/favicon.svg",
+      "source_location": "path line 2 fill",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "favicon_primary_white_logomark",
+      "label": "Primary White Logomark",
+      "file_type": "image",
+      "source_file": "photos/favicon.svg",
+      "source_location": "path line 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "favicon_logomark_accent_patch",
+      "label": "Logomark Accent Patch",
+      "file_type": "image",
+      "source_file": "photos/favicon.svg",
+      "source_location": "path line 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "favicon_stylized_letterform",
+      "label": "Stylized Letterform (K-like)",
+      "file_type": "image",
+      "source_file": "photos/favicon.svg",
+      "source_location": "path lines 3-4 geometry",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "favicon_site_favicon",
+      "target": "favicon_rounded_square_background",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/favicon.svg",
+      "source_location": "svg structure",
+      "weight": 1.0
+    },
+    {
+      "source": "favicon_rounded_square_background",
+      "target": "favicon_brand_blue_2e3092",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/favicon.svg",
+      "source_location": "path line 2",
+      "weight": 1.0
+    },
+    {
+      "source": "favicon_site_favicon",
+      "target": "favicon_primary_white_logomark",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/favicon.svg",
+      "source_location": "foreground layer",
+      "weight": 1.0
+    },
+    {
+      "source": "favicon_primary_white_logomark",
+      "target": "favicon_logomark_accent_patch",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/favicon.svg",
+      "source_location": "paths lines 3-4",
+      "weight": 1.0
+    },
+    {
+      "source": "favicon_primary_white_logomark",
+      "target": "favicon_stylized_letterform",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "photos/favicon.svg",
+      "source_location": "path geometry",
+      "weight": 1.0
+    },
+    {
+      "source": "favicon_logomark_accent_patch",
+      "target": "favicon_stylized_letterform",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "photos/favicon.svg",
+      "source_location": "path line 4",
+      "weight": 1.0
+    },
+    {
+      "source": "favicon_brand_blue_2e3092",
+      "target": "favicon_primary_white_logomark",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/favicon.svg",
+      "source_location": "color contrast",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "favicon_brand_mark_composition",
+      "label": "Favicon brand mark composition",
+      "nodes": [
+        "favicon_rounded_square_background",
+        "favicon_brand_blue_2e3092",
+        "favicon_primary_white_logomark",
+        "favicon_logomark_accent_patch"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "photos/favicon.svg"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,305 @@
+{
+  "nodes": [
+    {
+      "id": "hirag_icon2_project_logo",
+      "label": "HiRAG Project Logo Icon",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_isometric_book_stack",
+      "label": "Isometric Two-Book Stack",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "center, rounded corners, bookmark ribbons on right",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_open_book_top",
+      "label": "Open Book With Text Lines",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "top face of stack, three lines per page",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_bookmark_ribbons",
+      "label": "Bookmark Ribbons",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "right edge of each stacked volume",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_floating_pixel_squares",
+      "label": "Floating Pixel Squares",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "left of stack, varied sizes, dissolving effect",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_cyan_to_purple_gradient",
+      "label": "Cyan-Teal to Purple Gradient",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "mint cyan top-left through royal blue to magenta bottom-right",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_neon_outline_style",
+      "label": "Neon Glowing Outline Style",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "thick line art on all elements",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_black_background",
+      "label": "Solid Black Background",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "full canvas",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_hierarchical_knowledge_metaphor",
+      "label": "Hierarchical Layered Knowledge Metaphor",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "stacked volumes with readable top layer",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_digital_graph_metaphor",
+      "label": "Digitization and Graph Fragment Metaphor",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "pixel squares emanating from book stack",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hirag_icon2_graphrag_branding_theme",
+      "label": "GraphRAG Documentation Branding Theme",
+      "file_type": "image",
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "composite symbolism across icon",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hirag_icon2_isometric_book_stack",
+      "target": "hirag_icon2_project_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "primary focal graphic",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon2_open_book_top",
+      "target": "hirag_icon2_isometric_book_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "sits on upper volume face",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon2_bookmark_ribbons",
+      "target": "hirag_icon2_isometric_book_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "attached to each book layer",
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon2_floating_pixel_squares",
+      "target": "hirag_icon2_isometric_book_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "left side adjacent to stack",
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon2_cyan_to_purple_gradient",
+      "target": "hirag_icon2_project_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "applied to outlines and particles",
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon2_neon_outline_style",
+      "target": "hirag_icon2_project_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "hirag_icon2_black_background",
+      "target": "hirag_icon2_project_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "hirag_icon2_hierarchical_knowledge_metaphor",
+      "target": "hirag_icon2_isometric_book_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "multiple stacked layers with active top document",
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon2_hierarchical_knowledge_metaphor",
+      "target": "hirag_icon2_open_book_top",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "top layer is the readable surface",
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon2_digital_graph_metaphor",
+      "target": "hirag_icon2_floating_pixel_squares",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "hirag_icon2_digital_graph_metaphor",
+      "target": "hirag_icon2_hierarchical_knowledge_metaphor",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "pixels appear to emerge from structured texts",
+      "weight": 0.8
+    },
+    {
+      "source": "hirag_icon2_graphrag_branding_theme",
+      "target": "hirag_icon2_hierarchical_knowledge_metaphor",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon2_graphrag_branding_theme",
+      "target": "hirag_icon2_digital_graph_metaphor",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.84,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "hirag_icon2_project_logo",
+      "target": "index_html_hirag_system",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.93,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "used as HiRAG project logo on homepage (index.html L182)",
+      "weight": 1.0
+    },
+    {
+      "source": "hirag_icon2_hierarchical_knowledge_metaphor",
+      "target": "index_html_hirag_system",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.76,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "visual parallel to HiRAG hierarchical indexing (index.html L183)",
+      "weight": 0.8
+    },
+    {
+      "source": "hirag_icon2_cyan_to_purple_gradient",
+      "target": "atlas_rag_icon_wo_background_cyan_to_purple_gradient",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.68,
+      "source_file": "photos/hirag_icon2.png",
+      "source_location": "shared teal-to-purple palette across RAG project icons on same site",
+      "weight": 0.65
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hirag_icon2_logo_composition",
+      "label": "HiRAG Logo Visual Composition",
+      "nodes": [
+        "hirag_icon2_isometric_book_stack",
+        "hirag_icon2_open_book_top",
+        "hirag_icon2_floating_pixel_squares",
+        "hirag_icon2_cyan_to_purple_gradient"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.87,
+      "source_file": "photos/hirag_icon2.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
